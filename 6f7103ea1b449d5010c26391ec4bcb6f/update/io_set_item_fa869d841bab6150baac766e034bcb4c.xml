@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="CDWG Product 1">e3765d841bab6150baac766e034bcb53</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-06-15 18:03:14</sys_created_on>
+        <sys_id>fa869d841bab6150baac766e034bcb4c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ShoppingHub: Product &amp; Other data for Checkout.CDWG Product 1</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>io_set_item_fa869d841bab6150baac766e034bcb4c</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-06-15 18:03:14</sys_updated_on>
+        <variable_set display_value="ShoppingHub: Product &amp; Other data for Checkout">149538b853c120106901ddeeff7b1277</variable_set>
+    </io_set_item>
+</record_update>
