@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="BIT Micro Purchase Invoice">e817dbae1bc49d5010c26391ec4bcbed</application>
+        <filter/>
+        <name>BIT Micro Purchase Invoices</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_dosny_bit_procur.bit_micro_purchase_invoice_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-16 01:58:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2017dbae1bc49d5010c26391ec4bcbf0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Micro Purchase Invoices</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_module_2017dbae1bc49d5010c26391ec4bcbf0</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-16 01:58:41</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_micro_purchase_invoice</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_module_2017dbae1bc49d5010c26391ec4bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BIT Micro Purchase Invoice">e817dbae1bc49d5010c26391ec4bcbed</application><filter/><name>BIT Micro Purchase Invoices</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_dosny_bit_procur.bit_micro_purchase_invoice_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-16 01:58:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2017dbae1bc49d5010c26391ec4bcbf0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BIT Micro Purchase Invoices</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_module_2017dbae1bc49d5010c26391ec4bcbf0</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-16 01:58:41</sys_updated_on><table>x_dosny_bit_procur_bit_micro_purchase_invoice</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-676291022</payload_hash>
+        <record_name>BIT Micro Purchase Invoices</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-16 01:58:41</sys_created_on>
+        <sys_id>ec17dbae1bc49d5010c26391ec4bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1816a3beea00000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-16 01:58:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>e417dbaea9c49d506acb4ea41a7c62f1</update_guid>
+        <update_guid_history>e417dbaea9c49d506acb4ea41a7c62f1:-676291022</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-23 19:25:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>32d5d9857d4245f1a2274d93697b4849</sys_id>
+        <sys_metadata>2017dbae1bc49d5010c26391ec4bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Micro Purchase Invoices</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_module_2017dbae1bc49d5010c26391ec4bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_2017dbae1bc49d5010c26391ec4bcbf0">ec17dbae1bc49d5010c26391ec4bcbf1</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-23 19:25:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

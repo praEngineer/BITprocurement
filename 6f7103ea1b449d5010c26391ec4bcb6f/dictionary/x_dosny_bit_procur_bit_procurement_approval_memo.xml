@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d948c581dbfdd15012e39345ca961972" extends="task" label="BIT Procurement Approval Memo" max_length="40" name="x_dosny_bit_procur_bit_procurement_approval_memo" type="collection">
+        <element label="BIT CC Procurement" max_length="32" name="bit_cc_procurement" reference="x_dosny_bit_procur_bit_cc_procurement" type="reference"/>
+        <element label="BIT Procurement" max_length="32" name="bit_procurement" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element default="true" label="Manually Approved" max_length="40" name="manually_approved" type="boolean"/>
+        <element label="Status Detail" max_length="79" name="status_detail" type="string"/>
+    </element>
+</database>

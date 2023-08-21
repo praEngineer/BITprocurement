@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>date_sent_to_fiscal</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 22:10:08</sys_created_on>
+        <sys_id>3fa2d8dc1b14911010c26391ec4bcb0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_sent_to_fiscal</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_3fa2d8dc1b14911010c26391ec4bcb0d</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 22:10:08</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_noncompetitive_small_purchase</table>
+        <ui_policy display_value="Show Date Sent to Fiscal if Status is Awaiting Fiscal-Audit Approval">2382d4dc1b14911010c26391ec4bcb73</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_policy_action_3fa2d8dc1b14911010c26391ec4bcb0d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>date_sent_to_fiscal</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:10:08</sys_created_on><sys_id>3fa2d8dc1b14911010c26391ec4bcb0d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>date_sent_to_fiscal</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_policy_action_3fa2d8dc1b14911010c26391ec4bcb0d</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:10:08</sys_updated_on><table>x_dosny_bit_procur_bit_noncompetitive_small_purchase</table><ui_policy display_value="Show Date Sent to Fiscal if Status is Awaiting Fiscal-Audit Approval">2382d4dc1b14911010c26391ec4bcb73</ui_policy><visible>true</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-1900916917</payload_hash>
+        <record_name>date_sent_to_fiscal</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 22:10:09</sys_created_on>
+        <sys_id>a5b2989c1b14911010c26391ec4bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181832a7de70000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 22:10:09</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>adb2989c3c1491109cf8e56960371f49</update_guid>
+        <update_guid_history>adb2989c3c1491109cf8e56960371f49:-1900916917</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-02-04 00:15:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>a38034f695f8454d80976a7273b53b11</sys_id>
+        <sys_metadata>3fa2d8dc1b14911010c26391ec4bcb0d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>date_sent_to_fiscal</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="">2382d4dc1b14911010c26391ec4bcb73</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_3fa2d8dc1b14911010c26391ec4bcb0d</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_3fa2d8dc1b14911010c26391ec4bcb0d">a5b2989c1b14911010c26391ec4bcb4a</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-02-04 00:15:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

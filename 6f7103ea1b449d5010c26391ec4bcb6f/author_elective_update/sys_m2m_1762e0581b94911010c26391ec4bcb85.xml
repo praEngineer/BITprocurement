@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_dosny_bit_procur_bit_micro_purchase</from_table>
+        <m2m_from_field>bit_micro_purchase</m2m_from_field>
+        <m2m_from_label>BIT Procurement invoices</m2m_from_label>
+        <m2m_table>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</m2m_table>
+        <m2m_to_field>bit_procurement_invoice</m2m_to_field>
+        <m2m_to_label>BIT Micro Purchases</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 23:19:21</sys_created_on>
+        <sys_id>1762e0581b94911010c26391ec4bcb85</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_m2m_1762e0581b94911010c26391ec4bcb85</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 23:19:21</sys_updated_on>
+        <to_table>x_dosny_bit_procur_bit_procurement_invoice</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_m2m_1762e0581b94911010c26391ec4bcb85</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_dosny_bit_procur_bit_micro_purchase</from_table><m2m_from_field>bit_micro_purchase</m2m_from_field><m2m_from_label>BIT Procurement invoices</m2m_from_label><m2m_table>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</m2m_table><m2m_to_field>bit_procurement_invoice</m2m_to_field><m2m_to_label>BIT Micro Purchases</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 23:19:21</sys_created_on><sys_id>1762e0581b94911010c26391ec4bcb85</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_m2m_1762e0581b94911010c26391ec4bcb85</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 23:19:21</sys_updated_on><to_table>x_dosny_bit_procur_bit_procurement_invoice</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>-1049205911</payload_hash>
+        <record_name>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 23:19:22</sys_created_on>
+        <sys_id>e782e4581b94911010c26391ec4bcb68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1818369df2c0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 23:19:22</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>2b82e458e9949110481a397997f5fe5b</update_guid>
+        <update_guid_history>2b82e458e9949110481a397997f5fe5b:-1049205911</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-21 00:38:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>1834e2cd1d8441b88f572b97f1f65710</sys_id>
+        <sys_metadata>1762e0581b94911010c26391ec4bcb85</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_m2m_bit_procurem_bit_micro_pu</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_m2m_1762e0581b94911010c26391ec4bcb85</sys_update_name>
+        <sys_update_version display_value="sys_m2m_1762e0581b94911010c26391ec4bcb85">e782e4581b94911010c26391ec4bcb68</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-21 00:38:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="54d397d21ba4f910baac766e034bcbc7" extends="task" label="BIT Procurement Request (Old)" max_length="40" name="x_dosny_bit_procur_bit_procurement_request" type="collection">
+        <element label="Add to Procurement Task" max_length="32" name="add_to_procurement_task" reference="x_dosny_bit_procur_bit_procurement_task" type="reference"/>
+        <element label="Name" max_length="79" name="name" type="string"/>
+        <element choice="1" label="Procurement Method" max_length="40" name="procurement_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit Card" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Micro ($20K or under)" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="MWBE Noncompetitive" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Requirements Contract" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="OGS" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="PCC1 (small construction PO)" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Mod" sequence="7" value="7"/>
+            </choice>
+        </element>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Request Description" max_length="4000" name="request_description" read_only="true" type="string"/>
+        <element label="Request Estimated Cost" max_length="20" name="request_estimated_cost" read_only="true" type="currency"/>
+        <element label="Request Justification" max_length="4000" name="request_justification" read_only="true" type="string"/>
+        <element label="Request Name" max_length="79" name="request_name" read_only="true" type="string"/>
+        <element label="Request Recurring Expense" max_length="40" name="request_recurring_expense" read_only="true" type="boolean"/>
+        <element label="Request Requested for" max_length="32" name="request_requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Requestor" max_length="32" name="request_requestor" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Vendor" max_length="32" name="request_vendor" read_only="true" reference="core_company" type="reference"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+    </element>
+</database>

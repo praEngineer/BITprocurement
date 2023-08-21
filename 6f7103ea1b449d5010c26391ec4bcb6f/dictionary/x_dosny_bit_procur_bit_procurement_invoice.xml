@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0b7d949c1b54911010c26391ec4bcb14" label="BIT Procurement invoice" max_length="40" name="x_dosny_bit_procur_bit_procurement_invoice" type="collection">
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="Check Number" max_length="79" name="check_number" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Fiscal Year" max_length="79" name="fiscal_year" type="string"/>
+        <element label="Invoice Amount" max_length="20" name="invoice_amount" type="currency"/>
+        <element label="Name" max_length="79" name="name" type="string"/>
+        <element label="Purchase Order" max_length="32" name="nc_small_purchase_order" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Ship Date" max_length="40" name="ship_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Waiting for Invoice" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Paid" sequence="3" value="3"/>
+            </choice>
+        </element>
+        <element label="Status Date" max_length="40" name="status_date" type="glide_date"/>
+        <element label="Status Short Description" max_length="79" name="status_short_description" type="string"/>
+        <element label="Tracking Number" max_length="79" name="tracking_number" type="string"/>
+        <element label="Vendor Invoice Date" max_length="40" name="vendor_invoice_date" type="glide_date"/>
+        <element label="Vendor (Invoice From)" max_length="32" name="vendor_invoice_from" reference="core_company" type="reference"/>
+        <element label="Vendor Invoice No." max_length="79" name="vendor_invoice_no" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="nc_small_purchase_order"/>
+        </index>
+        <index name="index3">
+            <element name="vendor_invoice_from"/>
+        </index>
+    </element>
+</database>

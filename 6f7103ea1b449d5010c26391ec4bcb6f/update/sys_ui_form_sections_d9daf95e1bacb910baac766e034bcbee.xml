@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d9daf95e1bacb910baac766e034bcbee" sys_domain="global" table="x_dosny_bit_procur_bit_procurement_approval_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-11 13:30:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>61daf95e1bacb910baac766e034bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_procurement_approval_task" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">d9daf95e1bacb910baac766e034bcbee</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">b475b9161bacb910baac766e034bcbcb</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-11 13:30:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-11 13:30:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ddaf95e1bacb910baac766e034bcbf2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_procurement_approval_task" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">d9daf95e1bacb910baac766e034bcbee</sys_ui_form>
+            <sys_ui_section caption="Approval Memo Fields" display_value="Approval Memo Fields" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">5ddaf95e1bacb910baac766e034bcbec</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-11 13:30:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-11 15:18:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b76356121b60f910baac766e034bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_procurement_approval_task" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">d9daf95e1bacb910baac766e034bcbee</sys_ui_form>
+            <sys_ui_section caption="Work Notes and Comments" display_value="Work Notes and Comments" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">f36356121b60f910baac766e034bcbfb</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-11 15:18:24</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-11 15:21:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e71496521b60f910baac766e034bcb29</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_procurement_approval_task" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">d9daf95e1bacb910baac766e034bcbee</sys_ui_form>
+            <sys_ui_section caption="Activities (filtered) (Formatter)" display_value="Activities (filtered) (Formatter)" name="x_dosny_bit_procur_bit_procurement_approval_task" sys_domain="global" view="Default view">5f1456521b60f910baac766e034bcbdb</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-11 15:21:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dosny_bit_procur_bit_procurement_approval_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-11 13:30:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d9daf95e1bacb910baac766e034bcbee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_procurement_approval_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d9daf95e1bacb910baac766e034bcbee</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-11 13:30:55</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="no_attachment=true" audit="true" db_object_id="c333581edb049110d6ae1fba139619a0" label="Documents" max_length="40" name="ds_document" type="collection">
+        <element label="Parent Record" max_length="32" name="x_dosny_bit_procur_ref_to_parent_record" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+    </element>
+</database>

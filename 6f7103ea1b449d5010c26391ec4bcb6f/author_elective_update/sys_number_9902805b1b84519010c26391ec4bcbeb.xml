@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_dosny_bit_procur_bit_cc_procurement">x_dosny_bit_procur_bit_cc_procurement</category>
+        <maximum_digits>4</maximum_digits>
+        <number>0</number>
+        <prefix>-</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-17 18:23:31</sys_created_on>
+        <sys_id>9902805b1b84519010c26391ec4bcbeb</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>-</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_number_9902805b1b84519010c26391ec4bcbeb</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:36:55</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_number_9902805b1b84519010c26391ec4bcbeb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_dosny_bit_procur_bit_cc_procurement">x_dosny_bit_procur_bit_cc_procurement</category><maximum_digits>4</maximum_digits><number>0</number><prefix>-</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-17 18:23:31</sys_created_on><sys_id>9902805b1b84519010c26391ec4bcbeb</sys_id><sys_mod_count>7</sys_mod_count><sys_name>-</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_number_9902805b1b84519010c26391ec4bcbeb</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:36:55</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-1714744697</payload_hash>
+        <record_name>-</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 16:36:55</sys_created_on>
+        <sys_id>47f572e6db0d1d50216fdc62ca96194c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18269b7981b0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:36:55</sys_updated_on>
+        <type>Number</type>
+        <update_guid>03f57ea6630d1d50a6e694a7d555731e</update_guid>
+        <update_guid_history>03f57ea6630d1d50a6e694a7d555731e:-1714744697,b5d4fa66ee0d1d50635d6318b4d0dbc7:-617360604,589ebbd4aecd9150a487be60bf55ae29:1199363301,766e731819cd9150b8b92d002961fc05:515402595,d85e7bd4b1cd9150cae723c49d58f32f:-1974061406,9afdff94f8cd9150fb1f0eb3b3c2564f:-168558111,720dfb941dcd9150440f557f9647b56a:1199363301,f412445b75845190f06be40836f57c22:1190862165</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-10 19:55:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>3cc5f38700e047df88925cfb55a66e19</sys_id>
+        <sys_metadata>9902805b1b84519010c26391ec4bcbeb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>-</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="BIT Credit Card Procurement">e41088d31b84519010c26391ec4bcb16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_number_9902805b1b84519010c26391ec4bcbeb</sys_update_name>
+        <sys_update_version display_value="sys_number_9902805b1b84519010c26391ec4bcbeb">47f572e6db0d1d50216fdc62ca96194c</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-10 19:55:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

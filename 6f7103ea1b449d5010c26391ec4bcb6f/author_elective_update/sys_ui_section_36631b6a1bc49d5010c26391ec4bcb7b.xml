@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Description &amp; Notes" section_id="36631b6a1bc49d5010c26391ec4bcb7b" sys_domain="global" table="x_dosny_bit_procur_bit_micro_purchase" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description_notes</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-03 19:56:55</sys_created_on>
+            <sys_id>f62a9652db49d950216fdc62ca961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description &amp; Notes" display_value="Description &amp; Notes" name="x_dosny_bit_procur_bit_micro_purchase" sys_domain="global" view="Default view">36631b6a1bc49d5010c26391ec4bcb7b</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 19:56:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-03 19:56:55</sys_created_on>
+            <sys_id>7a2a9652db49d950216fdc62ca961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description &amp; Notes" display_value="Description &amp; Notes" name="x_dosny_bit_procur_bit_micro_purchase" sys_domain="global" view="Default view">36631b6a1bc49d5010c26391ec4bcb7b</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 19:56:55</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Description &amp; Notes</caption>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_micro_purchase</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-16 01:42:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36631b6a1bc49d5010c26391ec4bcb7b</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_micro_purchase</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_36631b6a1bc49d5010c26391ec4bcb7b</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 19:56:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_section_36631b6a1bc49d5010c26391ec4bcb7b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Description &amp; Notes" section_id="36631b6a1bc49d5010c26391ec4bcb7b" sys_domain="global" table="x_dosny_bit_procur_bit_micro_purchase" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>description_notes</element><position>0</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-03 19:56:55</sys_created_on><sys_id>f62a9652db49d950216fdc62ca961984</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Description &amp; Notes" display_value="Description &amp; Notes" name="x_dosny_bit_procur_bit_micro_purchase" sys_domain="global" view="Default view">36631b6a1bc49d5010c26391ec4bcb7b</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-03 19:56:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>1</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-03 19:56:55</sys_created_on><sys_id>7a2a9652db49d950216fdc62ca961984</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Description &amp; Notes" display_value="Description &amp; Notes" name="x_dosny_bit_procur_bit_micro_purchase" sys_domain="global" view="Default view">36631b6a1bc49d5010c26391ec4bcb7b</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-03 19:56:55</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Description &amp; Notes</caption><header>false</header><name>x_dosny_bit_procur_bit_micro_purchase</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-16 01:42:44</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>36631b6a1bc49d5010c26391ec4bcb7b</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_dosny_bit_procur_bit_micro_purchase</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_section_36631b6a1bc49d5010c26391ec4bcb7b</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-03 19:56:54</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-109057634</payload_hash>
+        <record_name>BIT Micro Purchase</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-03 19:56:55</sys_created_on>
+        <sys_id>762a9652db49d950216fdc62ca961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826548541c0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-03 19:56:55</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>3e2a96528049d9502d291ff152c01985</update_guid>
+        <update_guid_history>3e2a96528049d9502d291ff152c01985:-109057634,222a56526c49d950aba3636701787bdc:1938171707,a47b4fc8f0585110718cdacd09eca16b:-1364156971,247b4fc834585110b7c6be9a2d7af542:614653681,74368744815851104522be95195ba45b:-1012499487,2a203bc7e404519024c2ff3db8c03cae:1938171707,9a203bc7a9045190746ab981063b1b29:-1012499487,c7635b6a3bc49d501902f0b9a3cc790d:-872184991</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 00:49:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>018e5c96d10f459081aaf94ee73e1040</sys_id>
+        <sys_metadata>36631b6a1bc49d5010c26391ec4bcb7b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Description &amp; Notes</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="">4c89c3e61b849d5010c26391ec4bcbfe</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_36631b6a1bc49d5010c26391ec4bcb7b</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_36631b6a1bc49d5010c26391ec4bcb7b">762a9652db49d950216fdc62ca961986</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 00:49:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

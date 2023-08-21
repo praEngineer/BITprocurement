@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role/>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-25 17:00:51</sys_created_on>
+        <sys_id>232fd2a71b9ea5506c1036ef034bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>5a2fd2a71b9ea5506c1036ef034bcbba</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_embedded_help_role_232fd2a71b9ea5506c1036ef034bcbc0</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-25 17:00:51</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

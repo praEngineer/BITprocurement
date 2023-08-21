@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>bit_procurementscope</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>BIT Procurement-Scope</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-07 20:19:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fe023e411be8b110baac766e034bcb07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement-Scope</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_hub_flow_fe023e411be8b110baac766e034bcb07</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-07 20:19:44</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="DELETE" query="document_key=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_trigger_instance action="DELETE" query="flow=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=fe023e411be8b110baac766e034bcb07"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=fe023e411be8b110baac766e034bcb07^sys_idNOT IN7e023e411be8b110baac766e034bcb08"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>fe023e411be8b110baac766e034bcb07</id>
+        <name>BIT Procurement-Scope</name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-07 20:19:44</sys_created_on>
+        <sys_id>7e023e411be8b110baac766e034bcb08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-07 20:19:44</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=7e023e411be8b110baac766e034bcb08"/>
+    <sys_hub_flow_input action="DELETE" query="model=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_flow_output action="DELETE" query="model=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_action_instance action="DELETE" query="flow=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_sub_flow_instance action="DELETE" query="flow=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_flow_logic action="DELETE" query="flow=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=fe023e411be8b110baac766e034bcb07"/>
+    <sys_hub_flow_variable action="DELETE" query="model=fe023e411be8b110baac766e034bcb07"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_input_fe023e411be8b110baac766e034bcb07"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_fe023e411be8b110baac766e034bcb07"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_flow_output_fe023e411be8b110baac766e034bcb07"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_fe023e411be8b110baac766e034bcb07"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=fe023e411be8b110baac766e034bcb07"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=fe023e411be8b110baac766e034bcb07"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_hub_flow_fe023e411be8b110baac766e034bcb07</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description/><internal_name>bit_procurementscope</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><name>BIT Procurement-Scope</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-07 20:19:44</sys_created_on><sys_domain>global</sys_domain><sys_id>fe023e411be8b110baac766e034bcb07</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BIT Procurement-Scope</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_hub_flow_fe023e411be8b110baac766e034bcb07</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-07 20:19:44</sys_updated_on><type>flow</type></sys_hub_flow><sys_variable_value action="delete_multiple" query="document_key=fe023e411be8b110baac766e034bcb07"/><sys_hub_trigger_instance action="delete_multiple" query="flow=fe023e411be8b110baac766e034bcb07"/><sys_hub_flow_stage action="delete_multiple" query="flow=fe023e411be8b110baac766e034bcb07"/><sys_flow_cat_variable_model action="delete_multiple" query="id=fe023e411be8b110baac766e034bcb07^sys_idNOT IN7e023e411be8b110baac766e034bcb08"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>fe023e411be8b110baac766e034bcb07</id><name>BIT Procurement-Scope</name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-07 20:19:44</sys_created_on><sys_id>7e023e411be8b110baac766e034bcb08</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-07 20:19:44</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=7e023e411be8b110baac766e034bcb08"/><sys_hub_flow_input action="delete_multiple" query="model=fe023e411be8b110baac766e034bcb07"/><sys_hub_flow_output action="delete_multiple" query="model=fe023e411be8b110baac766e034bcb07"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=fe023e411be8b110baac766e034bcb07"/><sys_hub_action_instance action="delete_multiple" query="flow=fe023e411be8b110baac766e034bcb07"/><sys_hub_sub_flow_instance action="delete_multiple" query="flow=fe023e411be8b110baac766e034bcb07"/><sys_hub_flow_logic action="delete_multiple" query="flow=fe023e411be8b110baac766e034bcb07"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=fe023e411be8b110baac766e034bcb07"/><sys_hub_flow_variable action="delete_multiple" query="model=fe023e411be8b110baac766e034bcb07"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_fe023e411be8b110baac766e034bcb07"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_fe023e411be8b110baac766e034bcb07"/><sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_fe023e411be8b110baac766e034bcb07"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_fe023e411be8b110baac766e034bcb07"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=fe023e411be8b110baac766e034bcb07"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=fe023e411be8b110baac766e034bcb07"/></record_update>]]></payload>
+        <payload_hash>1170601026</payload_hash>
+        <record_name>BIT Procurement-Scope</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-07 20:19:45</sys_created_on>
+        <sys_id>8302b6811be8b110baac766e034bcba6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189d1a7d85f0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-07 20:19:45</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>4b02b681b7e8b11024af3c2e7d81cba5</update_guid>
+        <update_guid_history>4b02b681b7e8b11024af3c2e7d81cba5:1170601026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-07 20:35:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>543380aac09640d0ba2a75efdbe8c411</sys_id>
+        <sys_metadata>fe023e411be8b110baac766e034bcb07</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement-Scope</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_fe023e411be8b110baac766e034bcb07</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_fe023e411be8b110baac766e034bcb07">8302b6811be8b110baac766e034bcba6</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-07 20:35:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

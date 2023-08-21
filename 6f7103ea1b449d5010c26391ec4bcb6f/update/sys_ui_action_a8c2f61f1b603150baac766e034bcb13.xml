@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>false</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Select Procurement</name>
+        <onclick>showPage()</onclick>
+        <order>100</order>
+        <script><![CDATA[function showPage(){
+	var gdw = new GlideDialogWindow('x_dosny_bit_procur_select_procurement_3');
+	gdw.setSize(750,300);
+	
+	
+	//gdw.setPreference('table_name', g_form.getTableName());
+	//gdw.setPreference('recordTableName', 'x_dosny_bit_procur_bit_procurement_request');	
+	//gdw.setPreference('recordId', g_form.getUniqueValue());	
+	//gdw.setPreference('recordTableName', g_form.getTableName());
+	//gdw.setPreference('serviceLookupTableName','x_dosny_bit_procur_bit_procurement_task');
+	
+	//var recordID = g_form.getUniqueValue();
+	//var recordTableName = g_form.getTableName();
+	//var serviceLookupTableName = 'x_dosny_bit_procur_bit_procurement_task';
+	//g_scratchpad.recordID = recordID;
+	//g_scratchpad.recordTableName =  recordTableName;
+	
+	var lookupTable = 'x_dosny_bit_procur_bit_procurement_task';
+	
+	g_scratchpad.recordID =  g_form.getUniqueValue();
+	g_scratchpad.recordTableName = g_form.getTableName();
+	g_scratchpad.lookupTable = lookupTable;
+	
+	//gdw.setPreference('recordID', recordID);
+	
+	//alert(recordId);
+	//alert(recordTableName);
+	//alert(serviceLookupTableName);
+
+	//var callInfo = {
+	//	recordID: recordId,
+	//	recordTableName: recordTableName,
+	//	serviceLookupTableName: serviceLookupTableName		
+	//};
+	//alert(callInfo.recordId);
+	//alert(recordTableName);
+	//alert(serviceLookupTableName);
+//	g_scratchpad.callInfo = callInfo;
+	
+	gdw.render();
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-14 20:09:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a8c2f61f1b603150baac766e034bcb13</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>Select Procurement</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_action_a8c2f61f1b603150baac766e034bcb13</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-15 16:16:26</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_procurement_request</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

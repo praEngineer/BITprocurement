@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="BIT Procurement">09d5e89c1b94911010c26391ec4bcb0f</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>BIT Micro Purchase Order</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dosny_bit_procur_bit_micro_purchase</name>
+        <order>1</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 23:34:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37d52c9c1b94911010c26391ec4bcbc5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>BIT Micro Purchase</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_app_module_37d52c9c1b94911010c26391ec4bcbc5</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 23:35:31</sys_updated_on>
+        <timeline_page/>
+        <title>BIT Micro Purchase</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_app_module_37d52c9c1b94911010c26391ec4bcbc5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BIT Procurement">09d5e89c1b94911010c26391ec4bcb0f</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>BIT Micro Purchase Order</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_dosny_bit_procur_bit_micro_purchase</name><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 23:34:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>37d52c9c1b94911010c26391ec4bcbc5</sys_id><sys_mod_count>1</sys_mod_count><sys_name>BIT Micro Purchase</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_app_module_37d52c9c1b94911010c26391ec4bcbc5</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 23:35:31</sys_updated_on><timeline_page/><title>BIT Micro Purchase</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>25403505</payload_hash>
+        <record_name>BIT Micro Purchase</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 23:35:31</sys_created_on>
+        <sys_id>444664dc1b94911010c26391ec4bcbd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1818378a9350000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 23:35:31</sys_updated_on>
+        <type>Module</type>
+        <update_guid>0c4664dcb8949110d14ef7832da4facf</update_guid>
+        <update_guid_history>0c4664dcb8949110d14ef7832da4facf:25403505,57f5ec9c9a949110ac50df263c05d21d:-2114675894</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">0bcf53cddb909510d6ae1fba139619f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-23 21:01:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>269513dc91e440f5af23bf9f42265339</sys_id>
+        <sys_metadata>37d52c9c1b94911010c26391ec4bcbc5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Micro Purchase</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_37d52c9c1b94911010c26391ec4bcbc5</sys_update_name>
+        <sys_update_version display_value="sys_app_module_37d52c9c1b94911010c26391ec4bcbc5">444664dc1b94911010c26391ec4bcbd0</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-23 21:01:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

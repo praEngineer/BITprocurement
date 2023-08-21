@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>approval_memo</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-06 00:18:51</sys_created_on>
+        <sys_id>7382d54ddb799d50216fdc62ca96199a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>approval_memo</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7382d54ddb799d50216fdc62ca96199a</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-06 00:18:51</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_procurement_approval</table>
+        <ui_policy display_value="BIT Procurement make approval memo fields and e-sig doc and template read only, make and assigned to, sequence and short description mandatory">96691f23dba1dd1012e39345ca961967</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

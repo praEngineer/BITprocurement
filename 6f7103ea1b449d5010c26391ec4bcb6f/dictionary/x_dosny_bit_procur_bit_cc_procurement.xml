@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e41088d31b84519010c26391ec4bcb16" label="BIT Credit Card Procurement" max_length="40" name="x_dosny_bit_procur_bit_cc_procurement" type="collection">
+        <element label="Annual Cost" max_length="20" name="annual_cost" type="currency"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element label="BIT CC Tracking No." max_length="79" name="bit_cc_tracking_no" type="string"/>
+        <element choice="1" label="Calendar Year" mandatory="true" max_length="40" name="calendar_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2022" value="1"/>
+                <element inactive_on_update="false" label="2023" value="2"/>
+            </choice>
+        </element>
+        <element label="CL" max_length="40" name="cl" type="boolean"/>
+        <element label="Notes" max_length="4000" name="description_notes" type="string"/>
+        <element label="Expiration Date" max_length="40" name="expiration_date" type="glide_date"/>
+        <element choice="1" label="Fiscal Year" mandatory="true" max_length="79" name="fiscal_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2023" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="2022" sequence="2" value="1"/>
+            </choice>
+        </element>
+        <element label="Invoice Number" max_length="79" name="invoice_number" type="string"/>
+        <element choice="1" label="Month" mandatory="true" max_length="40" name="month" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Jan." sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Feb." sequence="2" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="Sept." sequence="9" value="9"/>
+                <element inactive_on_update="false" label="Oct." sequence="10" value="10"/>
+                <element inactive_on_update="false" label="Nov." sequence="11" value="11"/>
+                <element inactive_on_update="false" label="Dec." sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element label="Monthly Statement Due Date" max_length="40" name="monthly_statement_due_date" type="glide_date"/>
+        <element label="Name" max_length="255" name="name" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Recurring Charge" max_length="40" name="recurring_charge" type="boolean"/>
+        <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="glide_list"/>
+        <element label="Short Description" max_length="79" name="short_description" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="All Monthly Charges Paid" sequence="2" value="2"/>
+            </choice>
+        </element>
+        <element label="Status Detail" max_length="79" name="status_detail" type="string"/>
+        <element label="Monthly Total to date" max_length="20" name="total_amount" type="currency"/>
+        <element label="Vendor" mandatory="true" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

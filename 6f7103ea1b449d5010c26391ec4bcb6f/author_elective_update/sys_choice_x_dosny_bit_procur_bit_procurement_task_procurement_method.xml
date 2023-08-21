@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="procurement_method" table="x_dosny_bit_procur_bit_procurement_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>procurement_method</element>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:37:58</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>procurement_method</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_choice_x_dosny_bit_procur_bit_procurement_task_procurement_method</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:37:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Micro ($20K or under)</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:37:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:25</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MWBE Noncompetitive</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:38:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:30</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requirements Contract</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:38:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:33</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OGS</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:38:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:37</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PCC1 (small construction PO)</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:38:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:42</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>procurement_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mod</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:38:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:38:45</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

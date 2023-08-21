@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="94270dca1b2c3910baac766e034bcbcd" label="BIT Procurement Purchase Order Line Item" max_length="40" name="x_dosny_bit_procur_bit_procurement_purchase_order_line_item" type="collection">
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Purchase Order" max_length="32" name="purchase_order" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Short Description" max_length="255" name="short_description" type="string"/>
+        <index name="index">
+            <element name="purchase_order"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

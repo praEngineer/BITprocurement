@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="44.5x19&quot; Folding Hand Truck 300 Lb">64a407f2db899d5012e39345ca9619ad</sc_cat_item>
+        <sc_category display_value="Hand Trunk">50e0c578db09d150216fdc62ca9619f1</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-05 12:19:24</sys_created_on>
+        <sys_id>a4a407f2db899d5012e39345ca9619b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hand Trunk.44.5x19" Folding Hand Truck 300 Lb</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sc_cat_item_category_a4a407f2db899d5012e39345ca9619b2</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-05 12:19:24</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

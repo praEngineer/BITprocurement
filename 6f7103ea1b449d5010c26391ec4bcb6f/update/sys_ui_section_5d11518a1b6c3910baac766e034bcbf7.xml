@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Funding Codes" section_id="5d11518a1b6c3910baac766e034bcbf7" sys_domain="global" table="x_dosny_bit_procur_bit_noncompetitive_small_purchase" version="3" view="procurement">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dept</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>ed11918a1b6c3910baac766e034bcb4a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>appr_unit</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>6111918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>budget_code</element>
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>e111918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>6511918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fund</element>
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>e511918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>object_code_detail</element>
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>6911918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>commodity</element>
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:03</sys_created_on>
+            <sys_id>e911918a1b6c3910baac766e034bcb4b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Funding Codes</caption>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d11518a1b6c3910baac766e034bcbf7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_5d11518a1b6c3910baac766e034bcbf7</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:01</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Procurement" name="procurement">1882ef2d1b6fa1506c1036ef034bcbbc</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

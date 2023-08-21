@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description>Add a link to the bit_procurement_approval_memo_task form that opens the Adobe Sign completed PDF.</description>
+        <media_type/>
+        <name>bit_procurement_approval_memo_pdf</name>
+        <scoped_name>x_dosny_bit_procur_bit_procurement_approval_memo_pdf</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>sfarkas</sys_created_by>
+        <sys_created_on>2023-08-18 18:53:59</sys_created_on>
+        <sys_id>0b1307e41bf4b550baac766e034bcbd4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bit_procurement_approval_memo_pdf</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_macro_0b1307e41bf4b550baac766e034bcbd4</sys_update_name>
+        <sys_updated_by>sfarkas</sys_updated_by>
+        <sys_updated_on>2023-08-18 18:53:59</sys_updated_on>
+        <xml><![CDATA[<ui_macro name="bit_procurement_approval_memo_pdf" formatter="x_dosny_bit_procur_bit_procurement_approval_memo_task">
+	<a href="/sys_attachment.do?sys_id=${related_table.signed_document;}.view=true">
+		${related_table.signed_document.getDisplayValue()}
+	</a>
+</ui_macro>	]]></xml>
+    </sys_ui_macro>
+</record_update>

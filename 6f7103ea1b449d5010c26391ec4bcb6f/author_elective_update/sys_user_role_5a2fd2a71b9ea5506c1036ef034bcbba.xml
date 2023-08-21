@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_dosny_bit_procur.CL Audit</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>CL Audit</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-25 17:00:51</sys_created_on>
+        <sys_id>5a2fd2a71b9ea5506c1036ef034bcbba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur.CL Audit</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_user_role_5a2fd2a71b9ea5506c1036ef034bcbba</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-25 17:00:51</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_user_role_5a2fd2a71b9ea5506c1036ef034bcbba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_dosny_bit_procur.CL Audit</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>CL Audit</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-25 17:00:51</sys_created_on><sys_id>5a2fd2a71b9ea5506c1036ef034bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur.CL Audit</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_user_role_5a2fd2a71b9ea5506c1036ef034bcbba</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-25 17:00:51</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-1602210214</payload_hash>
+        <record_name>x_dosny_bit_procur.CL Audit</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-25 17:00:51</sys_created_on>
+        <sys_id>272f16a71b9ea5506c1036ef034bcb3e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187b95c5f510000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-25 17:00:51</sys_updated_on>
+        <type>Role</type>
+        <update_guid>2f2f16a7419ea55005a2282571b42f3d</update_guid>
+        <update_guid_history>2f2f16a7419ea55005a2282571b42f3d:-1602210214</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-04-26 15:36:55">e37c44481b6ea550baac766e034bcb38</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-26 19:36:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>f688f7e462ca4a48ac58128be8020224</sys_id>
+        <sys_metadata>5a2fd2a71b9ea5506c1036ef034bcbba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur.CL Audit</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_user_role_5a2fd2a71b9ea5506c1036ef034bcbba</sys_update_name>
+        <sys_update_version display_value="sys_user_role_5a2fd2a71b9ea5506c1036ef034bcbba">272f16a71b9ea5506c1036ef034bcb3e</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-26 19:36:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

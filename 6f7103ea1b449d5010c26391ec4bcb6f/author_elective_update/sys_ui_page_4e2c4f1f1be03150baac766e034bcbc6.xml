@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function onCancel() {
+    GlideDialogWindow.get().destroy();
+    return false;
+}
+
+function getServiceId() {
+    try {
+        var form = document.forms['form.' + '${JS:sys_id}'];
+        var service_sys_id = form["select_service"].value;
+        if (!service_sys_id) {
+            theText = getMessage('{0} is mandatory.').withValues([GlideModal.get().getPreference('sysparm_service_field_label')]);
+            showError(theText);
+            return false;
+        }
+        showLoadMask();
+        return service_sys_id;
+    } catch (ex) {
+		return null;
+	}
+}
+
+function showLoadMask() {
+    var loadMask = document.getElementById('load_mask_container');
+    loadMask.style.display = 'flex';
+}
+
+function submitDialog() {
+    var handler = GlideModal.get().getPreference('handler');
+    if (!handler)
+        return false;
+
+    var serviceSysId = getServiceId();
+    if (!serviceSysId)
+        return false;
+    else
+        return handler.execute(serviceSysId);
+}
+
+function cancelDialog() {
+    var handler = GlideModal.get().getPreference('handler');
+    if (!handler)
+        return false;
+    return handler.cancel(GlideModal.get().getPreference('sysparm_record_id'));
+}
+
+function showError(message){
+	$j("#error").html(message);
+	$j("#error").show();
+	hideSpinner();
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_dosny_bit_procur_select_procurement.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" />
+	<g:requires name="scripts/lib/jquery_includes.js" />
+	<g:requires name="scripts/heisenberg/heisenberg_all.js" />
+	<g:messages>
+		Service
+		Select a service
+	</g:messages>
+	<g:evaluate jelly="true">
+		var recordId = jelly.sysparm_record_id;
+		var recordTableName = jelly.sysparm_record_table;
+		var serviceLookupTableName = jelly.sysparm_service_lookup_table;
+		var requestDefIds = jelly.sysparm_request_def_ids+'';
+		var queryString ="sys_class_name=" + serviceLookupTableName + "^idIN" + requestDefIds;
+	</g:evaluate>
+	<g:ui_form>
+		<input type="hidden" name="request_def_ids" id="request_def_ids" value="${JS:sysparm_request_def_ids}"/>
+		<input type="hidden" name="record_sys_id" id="record_sys_id" value="${JS:sysparm_sys_id}"/>
+		<input type="hidden" name="record_table" id="record_table" value="${JS:sysparm_record_table}"/>
+		<div id="load_mask_container" style="display: none;">
+			<span class="icon icon-loading"></span>
+		</div>
+		<div id="ui_page_content" class="ui_page_content">
+			<g:ui_form>
+				<div id='error' class="alert alert-danger" style="text-align:left;display:none" role="alert"> </div>
+				<div classs="row">			
+					<div class="form-group is-required">
+						<div nowrap="true" title="${JS:sysparm_tool_tip_message}" >
+							<label for="select_service_id">
+								<span class="required-marker">${JS:sysparm_service_field_label}</span>
+							</label>
+						</div>	
+						<div class="form-field input_controls">
+							<g:ui_reference name="select_service" 
+											id="select_service_id"
+											table="${JS:serviceLookupTableName}" 
+											query="${JS:queryString}"
+											value=""
+											show_popup="false"
+											displayvalue=""/>
+						</div>
+					</div>
+				</div>
+		<div id="confirm-msg">
+			<div class="row">
+				<div class="col-sm-12">
+					<p id='msg'></p>
+				</div>
+			</div>
+			<div id="dialog_buttons" style="text-align:right">
+				<g:dialog_buttons_ok_cancel ok="return submitDialog()" cancel="return cancelDialog()"/>
+			</div>
+		</div>
+			</g:ui_form>
+		</div>
+	</g:ui_form>
+	<style>
+		#load_mask_container {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		height: 100%;
+		width: 100%;
+		background-color: #ffffff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.80;
+		z-index: 1000;
+		align-items: center;
+		-ms-flex-align: center;
+		justify-content: center;
+		-ms-flex-pack: center;
+		}
+	</style>
+</j:jelly>]]></html>
+        <name>select_procurement</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-14 22:00:19</sys_created_on>
+        <sys_id>4e2c4f1f1be03150baac766e034bcbc6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>select_procurement</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_page_4e2c4f1f1be03150baac766e034bcbc6</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-14 22:00:31</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_ui_page_4e2c4f1f1be03150baac766e034bcbc6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function onCancel() {
+    GlideDialogWindow.get().destroy();
+    return false;
+}
+
+function getServiceId() {
+    try {
+        var form = document.forms['form.' + '${JS:sys_id}'];
+        var service_sys_id = form["select_service"].value;
+        if (!service_sys_id) {
+            theText = getMessage('{0} is mandatory.').withValues([GlideModal.get().getPreference('sysparm_service_field_label')]);
+            showError(theText);
+            return false;
+        }
+        showLoadMask();
+        return service_sys_id;
+    } catch (ex) {
+		return null;
+	}
+}
+
+function showLoadMask() {
+    var loadMask = document.getElementById('load_mask_container');
+    loadMask.style.display = 'flex';
+}
+
+function submitDialog() {
+    var handler = GlideModal.get().getPreference('handler');
+    if (!handler)
+        return false;
+
+    var serviceSysId = getServiceId();
+    if (!serviceSysId)
+        return false;
+    else
+        return handler.execute(serviceSysId);
+}
+
+function cancelDialog() {
+    var handler = GlideModal.get().getPreference('handler');
+    if (!handler)
+        return false;
+    return handler.cancel(GlideModal.get().getPreference('sysparm_record_id'));
+}
+
+function showError(message){
+	$j("#error").html(message);
+	$j("#error").show();
+	hideSpinner();
+}]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_dosny_bit_procur_select_procurement.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:requires name="styles/heisenberg/heisenberg_all.css" includes="true" /&gt;
+	&lt;g:requires name="scripts/lib/jquery_includes.js" /&gt;
+	&lt;g:requires name="scripts/heisenberg/heisenberg_all.js" /&gt;
+	&lt;g:messages&gt;
+		Service
+		Select a service
+	&lt;/g:messages&gt;
+	&lt;g:evaluate jelly="true"&gt;
+		var recordId = jelly.sysparm_record_id;
+		var recordTableName = jelly.sysparm_record_table;
+		var serviceLookupTableName = jelly.sysparm_service_lookup_table;
+		var requestDefIds = jelly.sysparm_request_def_ids+'';
+		var queryString ="sys_class_name=" + serviceLookupTableName + "^idIN" + requestDefIds;
+	&lt;/g:evaluate&gt;
+	&lt;g:ui_form&gt;
+		&lt;input type="hidden" name="request_def_ids" id="request_def_ids" value="${JS:sysparm_request_def_ids}"/&gt;
+		&lt;input type="hidden" name="record_sys_id" id="record_sys_id" value="${JS:sysparm_sys_id}"/&gt;
+		&lt;input type="hidden" name="record_table" id="record_table" value="${JS:sysparm_record_table}"/&gt;
+		&lt;div id="load_mask_container" style="display: none;"&gt;
+			&lt;span class="icon icon-loading"&gt;&lt;/span&gt;
+		&lt;/div&gt;
+		&lt;div id="ui_page_content" class="ui_page_content"&gt;
+			&lt;g:ui_form&gt;
+				&lt;div id='error' class="alert alert-danger" style="text-align:left;display:none" role="alert"&gt; &lt;/div&gt;
+				&lt;div classs="row"&gt;			
+					&lt;div class="form-group is-required"&gt;
+						&lt;div nowrap="true" title="${JS:sysparm_tool_tip_message}" &gt;
+							&lt;label for="select_service_id"&gt;
+								&lt;span class="required-marker"&gt;${JS:sysparm_service_field_label}&lt;/span&gt;
+							&lt;/label&gt;
+						&lt;/div&gt;	
+						&lt;div class="form-field input_controls"&gt;
+							&lt;g:ui_reference name="select_service" 
+											id="select_service_id"
+											table="${JS:serviceLookupTableName}" 
+											query="${JS:queryString}"
+											value=""
+											show_popup="false"
+											displayvalue=""/&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+		&lt;div id="confirm-msg"&gt;
+			&lt;div class="row"&gt;
+				&lt;div class="col-sm-12"&gt;
+					&lt;p id='msg'&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+			&lt;div id="dialog_buttons" style="text-align:right"&gt;
+				&lt;g:dialog_buttons_ok_cancel ok="return submitDialog()" cancel="return cancelDialog()"/&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+			&lt;/g:ui_form&gt;
+		&lt;/div&gt;
+	&lt;/g:ui_form&gt;
+	&lt;style&gt;
+		#load_mask_container {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		height: 100%;
+		width: 100%;
+		background-color: #ffffff;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.80;
+		z-index: 1000;
+		align-items: center;
+		-ms-flex-align: center;
+		justify-content: center;
+		-ms-flex-pack: center;
+		}
+	&lt;/style&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;select_procurement&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;clombardi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-08-14 22:00:19&lt;/sys_created_on&gt;&lt;sys_id&gt;4e2c4f1f1be03150baac766e034bcbc6&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;select_procurement&lt;/sys_name&gt;&lt;sys_package display_value="BIT Procurement" source="x_dosny_bit_procur"&gt;6f7103ea1b449d5010c26391ec4bcb6f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BIT Procurement"&gt;6f7103ea1b449d5010c26391ec4bcb6f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_4e2c4f1f1be03150baac766e034bcbc6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;clombardi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-08-14 22:00:31&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1026419366</payload_hash>
+        <record_name>select_procurement</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-14 22:00:31</sys_created_on>
+        <sys_id>273ccf1f1be03150baac766e034bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189f6109fda0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-14 22:00:31</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>6b3ccf1f9ae031504ce5b68a62f7ff19</update_guid>
+        <update_guid_history>6b3ccf1f9ae031504ce5b68a62f7ff19:1026419366,243c8b1f7ce031502b43121d7f4bb21e:175683796</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-14 22:11:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>09edc0250e32430493684d035dc004a9</sys_id>
+        <sys_metadata>4e2c4f1f1be03150baac766e034bcbc6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>select_procurement</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_page_4e2c4f1f1be03150baac766e034bcbc6</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_4e2c4f1f1be03150baac766e034bcbc6">273ccf1f1be03150baac766e034bcb1a</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-14 22:11:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

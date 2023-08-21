@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="CDWG Product 1">e3765d841bab6150baac766e034bcb53</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-06-15 18:03:15</sys_created_on>
+        <sys_id>36869d841bab6150baac766e034bcb74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CDWG Product 1.Users with Shopper Role</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_36869d841bab6150baac766e034bcb74</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-06-15 18:03:15</sys_updated_on>
+        <user_criteria display_value="Users with Shopper Role">88ee8c1807b31010b5db925e0ad300ee</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_36869d841bab6150baac766e034bcb74</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="CDWG Product 1">e3765d841bab6150baac766e034bcb53</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-06-15 18:03:15</sys_created_on><sys_id>36869d841bab6150baac766e034bcb74</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CDWG Product 1.Users with Shopper Role</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_36869d841bab6150baac766e034bcb74</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-06-15 18:03:15</sys_updated_on><user_criteria display_value="Users with Shopper Role">88ee8c1807b31010b5db925e0ad300ee</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1225703087</payload_hash>
+        <record_name>CDWG Product 1.Users with Shopper Role</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-06-15 18:03:15</sys_created_on>
+        <sys_id>8f869d841bab6150baac766e034bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188c039d5140000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-06-15 18:03:15</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>f2869d845cab61509c01eba0cd11ef76</update_guid>
+        <update_guid_history>f2869d845cab61509c01eba0cd11ef76:1225703087</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-06-15 14:03:58">15b651c41bab6150baac766e034bcbec</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-06-15 18:03:58</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>565a0ca23d7c4b08a5b5e4374692f840</sys_id>
+        <sys_metadata>36869d841bab6150baac766e034bcb74</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CDWG Product 1.Users with Shopper Role</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_36869d841bab6150baac766e034bcb74</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_36869d841bab6150baac766e034bcb74">8f869d841bab6150baac766e034bcb76</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-06-15 18:03:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

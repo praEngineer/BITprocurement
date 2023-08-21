@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="universal_request_transfer_fields_mapping">
+    <universal_request_transfer_fields_mapping action="INSERT_OR_UPDATE">
+        <source_field>opened_by</source_field>
+        <source_table>x_dosny_bit_procur_bit_procurement_request</source_table>
+        <sys_class_name>universal_request_transfer_fields_mapping</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 13:55:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6b60737b1bacb150baac766e034bcb3a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>universal_request_transfer_fields_mapping_6b60737b1bacb150baac766e034bcb3a</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 13:55:36</sys_updated_on>
+        <target_field>opened_by</target_field>
+        <target_table>universal_request</target_table>
+        <transfer_map display_value="BIT Procurement Request">b09febf71bacb150baac766e034bcb7c</transfer_map>
+        <type>create_ur</type>
+    </universal_request_transfer_fields_mapping>
+</record_update>

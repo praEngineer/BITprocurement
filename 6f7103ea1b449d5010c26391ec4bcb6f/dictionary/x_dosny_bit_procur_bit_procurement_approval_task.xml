@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="c251bd5e1b6cb910baac766e034bcb47" extends="task" label="BIT Procurement Approval Task" max_length="40" name="x_dosny_bit_procur_bit_procurement_approval_task" type="collection">
+        <element label="Commodity" max_length="79" name="commodity" type="string"/>
+        <element default="javascript:gs.nowDateTime();" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Date" max_length="40" name="date" type="glide_date" use_dynamic_default="true"/>
+        <element label="Procurement Request" max_length="32" name="procurement_request" reference="x_dosny_bit_procur_bit_procurement_request" type="reference"/>
+        <element label="Project/Initiative" max_length="79" name="project_initiative" type="string"/>
+        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <element default="BIT" label="Requesting bureau" max_length="79" name="requesting_bureau" type="string"/>
+        <element label="Requestor" max_length="79" name="requestor" type="string"/>
+        <element label="Summary" max_length="4000" name="summary" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+    </element>
+</database>

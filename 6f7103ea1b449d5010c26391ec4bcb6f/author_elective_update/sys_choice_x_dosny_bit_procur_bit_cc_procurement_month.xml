@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="month" table="x_dosny_bit_procur_bit_cc_procurement" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>month</element>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:08</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>month</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_choice_x_dosny_bit_procur_bit_cc_procurement_month</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:18:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Jan.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:29</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Feb.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:31</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>March</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:32</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>April</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:34</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>May</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:36</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>June</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:37</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>July</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:40</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>August</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:42</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sept.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:45</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Oct.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:48</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Nov.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:19:59</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>month</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dec.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <sequence>12</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-14 16:18:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-14 16:20:01</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

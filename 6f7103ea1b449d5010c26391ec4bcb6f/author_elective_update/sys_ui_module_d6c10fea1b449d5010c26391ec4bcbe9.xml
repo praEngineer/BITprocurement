@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="BIT Purchase Order">56c10fea1b449d5010c26391ec4bcbe6</application>
+        <filter/>
+        <name>BIT Purchase Orders</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_dosny_bit_procur.bit_purchase_order_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-16 00:25:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d6c10fea1b449d5010c26391ec4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Purchase Orders</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_module_d6c10fea1b449d5010c26391ec4bcbe9</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-16 00:25:41</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_purchase_order</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_module_d6c10fea1b449d5010c26391ec4bcbe9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BIT Purchase Order">56c10fea1b449d5010c26391ec4bcbe6</application><filter/><name>BIT Purchase Orders</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_dosny_bit_procur.bit_purchase_order_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-16 00:25:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d6c10fea1b449d5010c26391ec4bcbe9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BIT Purchase Orders</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_module_d6c10fea1b449d5010c26391ec4bcbe9</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-16 00:25:41</sys_updated_on><table>x_dosny_bit_procur_bit_purchase_order</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>354601482</payload_hash>
+        <record_name>BIT Purchase Orders</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-16 00:25:41</sys_created_on>
+        <sys_id>d2c10fea1b449d5010c26391ec4bcbec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18169e6caa70000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-16 00:25:41</sys_updated_on>
+        <type>Module</type>
+        <update_guid>dac10feac9449d5077f7cc6fe4656eeb</update_guid>
+        <update_guid_history>dac10feac9449d5077f7cc6fe4656eeb:354601482</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-16 01:06:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>2ab0f20ad5024fe28986963a195dbea9</sys_id>
+        <sys_metadata>d6c10fea1b449d5010c26391ec4bcbe9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Purchase Orders</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_module_d6c10fea1b449d5010c26391ec4bcbe9</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_d6c10fea1b449d5010c26391ec4bcbe9">d2c10fea1b449d5010c26391ec4bcbec</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-16 01:06:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -17,7 +17,7 @@
 <p style="text-align: justify; margin: 0in 0in 8pt; line-height: 107%; font-size: 11pt; font-family: Calibri, sans-serif;">Technical Leads/Project Managers must complete this form to initiate the process for any new needs or required renewals that are expected or anticipated for the upcoming fiscal year. All requests will be reviewed by senior management to verify and approve need, and for next steps in the procurement process to continue.</p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow_designer_flow>
+        <flow_designer_flow display_value="BIT Procurement Request">72e8b8181bb0f9106c1036ef034bcba3</flow_designer_flow>
         <fulfillment_automation_level>unspecified</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -54,7 +54,7 @@
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
         <request_method>submit</request_method>
-        <roles/>
+        <roles>public</roles>
         <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
@@ -67,14 +67,14 @@
         <sys_created_by>clombardi</sys_created_by>
         <sys_created_on>2023-08-10 16:43:25</sys_created_on>
         <sys_id>1f3d59ca1bac3910baac766e034bcb40</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>BIT Procurement Request</sys_name>
         <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
         <sys_policy/>
         <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
         <sys_update_name>sc_cat_item_1f3d59ca1bac3910baac766e034bcb40</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-16 14:50:28</sys_updated_on>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:15:29</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>

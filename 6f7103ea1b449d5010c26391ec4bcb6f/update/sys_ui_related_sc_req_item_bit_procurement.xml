@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sc_req_item" version="2" view="bit_procurement">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:70cc9f6c1bf07d106c1036ef034bcbf4</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>2eec1fac1bf07d106c1036ef034bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:59e123d61be4f910baac766e034bcbd0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>26ec1fac1bf07d106c1036ef034bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:86d5d7a01bf07d106c1036ef034bcbf1</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>2aec1fac1bf07d106c1036ef034bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:8125136b1b287150baac766e034bcb7a</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>2eec1fac1bf07d106c1036ef034bcb03</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>4</position>
+            <related_list>REL:628553a01bf07d106c1036ef034bcb23</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>22ec1fac1bf07d106c1036ef034bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Requested Item - BIT Procurement" name="sc_req_item" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">aaec1fac1bf07d106c1036ef034bcb01</list_id>
+            <order_by/>
+            <position>5</position>
+            <related_list>sc_task.parent</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_id>26ec1fac1bf07d106c1036ef034bcb04</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Requested Item - BIT Procurement</calculated_name>
+            <filter/>
+            <name>sc_req_item</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 20:25:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaec1fac1bf07d106c1036ef034bcb01</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Requested Item - BIT Procurement</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_related_sc_req_item_bit_procurement</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 20:25:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="BIT Procurement" name="bit_procurement">e79ef83d1bd3e510baac766e034bcb6c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

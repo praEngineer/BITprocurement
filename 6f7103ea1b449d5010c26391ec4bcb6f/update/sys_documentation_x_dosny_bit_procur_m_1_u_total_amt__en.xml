@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_total_amt_" label="Total Amt." language="en" table="x_dosny_bit_procur_m_1">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_total_amt_</element>
+            <help/>
+            <hint/>
+            <label>Total Amt.</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_m_1</name>
+            <plural>Total Amt.s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-03 20:00:29</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Total Amt.</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_documentation_x_dosny_bit_procur_m_1_u_total_amt__en</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 20:00:29</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

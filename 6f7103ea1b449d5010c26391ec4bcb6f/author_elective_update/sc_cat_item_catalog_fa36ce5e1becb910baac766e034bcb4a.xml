@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="CL Catalog Item">6f160e5e1becb910baac766e034bcb64</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 14:20:43</sys_created_on>
+        <sys_id>fa36ce5e1becb910baac766e034bcb4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.CL Catalog Item</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fa36ce5e1becb910baac766e034bcb4a</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 14:20:43</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sc_cat_item_catalog_fa36ce5e1becb910baac766e034bcb4a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="CL Catalog Item">6f160e5e1becb910baac766e034bcb64</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-11 14:20:43</sys_created_on><sys_id>fa36ce5e1becb910baac766e034bcb4a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.CL Catalog Item</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sc_cat_item_catalog_fa36ce5e1becb910baac766e034bcb4a</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-11 14:20:43</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>588599974</payload_hash>
+        <record_name>Service Catalog.CL Catalog Item</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 14:20:43</sys_created_on>
+        <sys_id>3636ce5e1becb910baac766e034bcb4e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e4f893200000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 14:20:43</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>3e36ce5ea4ecb91039f83ad5ece7d44d</update_guid>
+        <update_guid_history>3e36ce5ea4ecb91039f83ad5ece7d44d:588599974</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-08-11 16:04:22">70e4db561ba4f910baac766e034bcba6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 20:04:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>169d9dec008f415a84e37c8fa41d9e89</sys_id>
+        <sys_metadata>fa36ce5e1becb910baac766e034bcb4a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.CL Catalog Item</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="">6f160e5e1becb910baac766e034bcb64</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_fa36ce5e1becb910baac766e034bcb4a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_fa36ce5e1becb910baac766e034bcb4a">3636ce5e1becb910baac766e034bcb4e</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 20:04:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

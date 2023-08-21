@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="recurring_expense" table="x_dosny_bit_procur_bit_noncompetitive_small_purchase" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>recurring_expense</element>
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-18 19:44:23</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>recurring_expense</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_choice_x_dosny_bit_procur_bit_noncompetitive_small_purchase_recurring_expense</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-18 19:44:23</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-18 19:44:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-18 19:44:27</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>recurring_expense</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-18 19:44:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-18 19:44:36</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>BIT Procurement Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>BIT Procurement Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">417ac375db231300f93cdb85ca96192f</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-07 22:53:24</sys_created_on>
+        <sys_id>313513051bacb110baac766e034bcb3d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement Task</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_wizard_answer_313513051bacb110baac766e034bcb3d</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-07 22:53:24</sys_updated_on>
+        <table/>
+        <target_url>x_dosny_bit_procur_bit_procurement_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_wizard_answer_313513051bacb110baac766e034bcb3d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>BIT Procurement Task</answer><button_label/><dependent_value/><element/><name>BIT Procurement Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">417ac375db231300f93cdb85ca96192f</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-07 22:53:24</sys_created_on><sys_id>313513051bacb110baac766e034bcb3d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BIT Procurement Task</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_wizard_answer_313513051bacb110baac766e034bcb3d</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-07 22:53:24</sys_updated_on><table/><target_url>x_dosny_bit_procur_bit_procurement_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1142236713</payload_hash>
+        <record_name>BIT Procurement Task</record_name>
+        <reverted_from/>
+        <source>11406e201b203110baac766e034bcbed</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-06 05:45:07</sys_created_on>
+        <sys_id>80513d5e1b6cb910baac766e034bcb10</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189c960bab80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>40513d5ec96cb910dd0d7537589d2810</update_guid>
+        <update_guid_history>40513d5ec96cb910dd0d7537589d2810:1142236713</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 12:49:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>bb56690cbf394ec79e222ab7f5d8b589</sys_id>
+        <sys_metadata>313513051bacb110baac766e034bcb3d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement Task</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="Task">417ac375db231300f93cdb85ca96192f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_313513051bacb110baac766e034bcb3d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_313513051bacb110baac766e034bcb3d">80513d5e1b6cb910baac766e034bcb10</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 12:49:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

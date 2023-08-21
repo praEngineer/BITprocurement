@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m">
+    <sys_m2m action="DELETE">
+        <from_table>x_dosny_bit_procur_bit_noncompetitive_small_purchase</from_table>
+        <m2m_from_field>bit_noncompetitive_small_purchase</m2m_from_field>
+        <m2m_from_label>BIT NC Small Purchase Invoices</m2m_from_label>
+        <m2m_table>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</m2m_table>
+        <m2m_to_field>bit_nc_small_purchase_invoices</m2m_to_field>
+        <m2m_to_label>BIT Noncompetitive Small Purchases</m2m_to_label>
+        <sys_class_name>sys_m2m</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-17 21:53:19</sys_created_on>
+        <sys_id>9fe1f41f1b88519010c26391ec4bcbd9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_m2m_9fe1f41f1b88519010c26391ec4bcbd9</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-17 21:53:19</sys_updated_on>
+        <to_table>x_dosny_bit_procur_bit_nc_small_purchase_invoices</to_table>
+    </sys_m2m>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_m2m_9fe1f41f1b88519010c26391ec4bcbd9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>x_dosny_bit_procur_bit_noncompetitive_small_purchase</from_table><m2m_from_field>bit_noncompetitive_small_purchase</m2m_from_field><m2m_from_label>BIT NC Small Purchase Invoices</m2m_from_label><m2m_table>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</m2m_table><m2m_to_field>bit_nc_small_purchase_invoices</m2m_to_field><m2m_to_label>BIT Noncompetitive Small Purchases</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-17 21:53:19</sys_created_on><sys_id>9fe1f41f1b88519010c26391ec4bcbd9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_m2m_9fe1f41f1b88519010c26391ec4bcbd9</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-17 21:53:19</sys_updated_on><to_table>x_dosny_bit_procur_bit_nc_small_purchase_invoices</to_table></sys_m2m></record_update>]]></payload>
+        <payload_hash>1545268449</payload_hash>
+        <record_name>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-17 21:53:20</sys_created_on>
+        <sys_id>ca12b81f1b88519010c26391ec4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18173a8065e0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-17 21:53:20</sys_updated_on>
+        <type>Many to Many Definition</type>
+        <update_guid>c212b81f91885190cbf058fac1e95650</update_guid>
+        <update_guid_history>c212b81f91885190cbf058fac1e95650:1545268449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 23:22:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_m2m">sys_m2m</sys_db_object>
+        <sys_id>6e1bb2a2eee64edab506e573cdee3564</sys_id>
+        <sys_metadata>9fe1f41f1b88519010c26391ec4bcbd9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_m2m_bit_nc_smal_bit_noncompe</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_m2m_9fe1f41f1b88519010c26391ec4bcbd9</sys_update_name>
+        <sys_update_version display_value="sys_m2m_9fe1f41f1b88519010c26391ec4bcbd9">ca12b81f1b88519010c26391ec4bcb50</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 23:22:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

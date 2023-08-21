@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="BIT Credit Card Purchases">5212abd2db8dd950216fdc62ca9619d3</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_dosny_bit_procur_bit_cc_procurement">fiscal_year=1^status=5^EQ<item display_value="2023" endquery="false" field="fiscal_year" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item display_value="Recurring -Not Yet Ordered for FY 23" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="5"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>FY 2023 - July</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dosny_bit_procur_bit_cc_procurement</name>
+        <order>3</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 01:12:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9f522fd2db8dd950216fdc62ca9619dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>FY 2023 - Not Yet Ordered</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_app_module_9f522fd2db8dd950216fdc62ca9619dc</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 01:15:13</sys_updated_on>
+        <timeline_page/>
+        <title>FY 2023 - Not Yet Ordered</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_app_module_9f522fd2db8dd950216fdc62ca9619dc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BIT Credit Card Purchases">5212abd2db8dd950216fdc62ca9619d3</application><assessment/><content_page/><device_type/><filter table="x_dosny_bit_procur_bit_cc_procurement">fiscal_year=1^status=5^EQ<item display_value="2023" endquery="false" field="fiscal_year" goto="false" newquery="false" operator="=" or="false" value="1"/><item display_value="Recurring -Not Yet Ordered for FY 23" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="5"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>FY 2023 - July</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_dosny_bit_procur_bit_cc_procurement</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 01:12:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>9f522fd2db8dd950216fdc62ca9619dc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>FY 2023 - Not Yet Ordered</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_app_module_9f522fd2db8dd950216fdc62ca9619dc</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 01:15:13</sys_updated_on><timeline_page/><title>FY 2023 - Not Yet Ordered</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>2088424711</payload_hash>
+        <record_name>FY 2023 - Not Yet Ordered</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 01:15:13</sys_created_on>
+        <sys_id>5d032f56db8dd950216fdc62ca961949</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>182666bbe810000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 01:15:13</sys_updated_on>
+        <type>Module</type>
+        <update_guid>15032f56db8dd95004043d9fc6d79949</update_guid>
+        <update_guid_history>15032f56db8dd95004043d9fc6d79949:2088424711,06a22fd2808dd950f4a4417b9119d133:2010735262,a8826716798dd95056a3aead66fea85d:958255223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">09a756a8db9e555012e39345ca961989</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-29 12:34:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>6aee7c95618b44f4b2dd9d6b2ac98f90</sys_id>
+        <sys_metadata>9f522fd2db8dd950216fdc62ca9619dc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FY 2023 - Not Yet Ordered</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_9f522fd2db8dd950216fdc62ca9619dc</sys_update_name>
+        <sys_update_version display_value="sys_app_module_9f522fd2db8dd950216fdc62ca9619dc">5d032f56db8dd950216fdc62ca961949</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-29 12:34:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

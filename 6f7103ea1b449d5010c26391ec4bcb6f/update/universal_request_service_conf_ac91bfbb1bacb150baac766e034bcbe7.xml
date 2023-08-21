@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="universal_request_service_conf">
+    <universal_request_service_conf action="INSERT_OR_UPDATE">
+        <restrict_requests>false</restrict_requests>
+        <service_name>BIT Procurement</service_name>
+        <service_set display_value="BIT Procurement">79d07f3b1bacb150baac766e034bcb40</service_set>
+        <service_table>x_dosny_bit_procur_bit_procurement_request</service_table>
+        <sys_class_name>universal_request_service_conf</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:01:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>ac91bfbb1bacb150baac766e034bcbe7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>universal_request_service_conf_ac91bfbb1bacb150baac766e034bcbe7</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:01:11</sys_updated_on>
+        <transfer_map display_value="BIT Procurement Request">b09febf71bacb150baac766e034bcb7c</transfer_map>
+    </universal_request_service_conf>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e267c26fdb2d9d1012e39345ca9619ef" extends="task" label="BIT Procurement Approval" max_length="40" name="x_dosny_bit_procur_bit_procurement_approval" type="collection">
+        <element label="Approval Memo" max_length="32" name="approval_memo" reference="x_dosny_bit_procur_bit_procurement_approval_memo" type="reference"/>
+        <element label="Approval Received" max_length="40" name="approval_received" type="boolean"/>
+        <element label="Approval Requested" max_length="40" name="approval_requested" type="boolean"/>
+        <element label="Sequence" max_length="40" name="sequence" type="integer"/>
+    </element>
+</database>

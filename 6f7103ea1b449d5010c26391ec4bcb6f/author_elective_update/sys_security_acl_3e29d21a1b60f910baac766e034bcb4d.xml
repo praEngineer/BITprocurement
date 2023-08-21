@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_dosny_bit_procur_bit_procurement_request</description>
+        <name>x_dosny_bit_procur_bit_procurement_request</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 15:43:27</sys_created_on>
+        <sys_id>3e29d21a1b60f910baac766e034bcb4d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_bit_procurement_request</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_security_acl_3e29d21a1b60f910baac766e034bcb4d</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 15:43:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_security_acl_3e29d21a1b60f910baac766e034bcb4d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_dosny_bit_procur_bit_procurement_request</description><name>x_dosny_bit_procur_bit_procurement_request</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-11 15:43:27</sys_created_on><sys_id>3e29d21a1b60f910baac766e034bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_bit_procurement_request</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_security_acl_3e29d21a1b60f910baac766e034bcb4d</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-11 15:43:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>2023800694</payload_hash>
+        <record_name>x_dosny_bit_procur_bit_procurement_request</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 15:43:27</sys_created_on>
+        <sys_id>3229d21a1b60f910baac766e034bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>189e54452b80000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 15:43:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>3e29d21ae360f91024f9e7f52d5b8b51</update_guid>
+        <update_guid_history>3e29d21ae360f91024f9e7f52d5b8b51:2023800694</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 19:59:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>57eb96a5fe9d4688a061800408306010</sys_id>
+        <sys_metadata>3e29d21a1b60f910baac766e034bcb4d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_bit_procurement_request</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="">b229d21a1b60f910baac766e034bcb89</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_3e29d21a1b60f910baac766e034bcb4d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_3e29d21a1b60f910baac766e034bcb4d">3229d21a1b60f910baac766e034bcb84</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 19:59:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

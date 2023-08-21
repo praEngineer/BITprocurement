@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5d4b9a1b1becfd10baac766e034bcb5c" extends="task" label="BIT Procurement Task (Old)" max_length="40" name="x_dosny_bit_procur_bit_procurement_task" type="collection">
+        <element label="Annual Cost (if different than PO Cost)" max_length="20" name="annual_cost" type="currency"/>
+        <element label="Appr. Unit" max_length="79" name="appr_unit" type="string"/>
+        <element label="Budget Code" max_length="79" name="budget_code" type="string"/>
+        <element label="Bulk License Candidate" max_length="40" name="bulk_license_candidate" type="boolean"/>
+        <element label="Capital Amount" max_length="20" name="capital_amount" type="currency"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consultant" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Camera" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Enterprise Print" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="OPs Infrastructure" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Software/Licenses" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Commodity Code" max_length="79" name="commodity_code" type="string"/>
+        <element label="Dept." max_length="79" name="dept" type="string"/>
+        <element label="Estimated Cost" max_length="20" name="estimated_cost" type="currency"/>
+        <element label="Expense Amount" max_length="20" name="expense_amount" type="currency"/>
+        <element choice="1" label="Fiscal Year" max_length="40" name="fiscal_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2021" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2022" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="2023" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="2024" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Fiscal Year Encumbrance (if different than PO Cost)" max_length="20" name="fiscal_year_encumbrance" type="currency"/>
+        <element label="Fund" max_length="79" name="fund" type="string"/>
+        <element choice="1" label="Funding" max_length="40" name="funding" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Capital" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Expense" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Split (Capital &amp; Expense)" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Snow Budget Expense" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="License or Contract End" max_length="40" name="license_or_contract_end" type="glide_date"/>
+        <element label="License or Contract Start" max_length="40" name="license_or_contract_start" type="glide_date"/>
+        <element label="LL63 Number (if applicable)" max_length="79" name="ll63_number" type="string"/>
+        <element choice="1" label="MWBE Noncompetive Sub-Status" max_length="40" name="mwbe_noncompetive_sub_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Working on Bid Book" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Working on Solicitation" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Solicitation Released" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Awaiting Contract Registration" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Name" max_length="79" name="name" type="string"/>
+        <element label="Object Code" max_length="79" name="object_code" type="string"/>
+        <element label="Potential Spend Decrease" max_length="40" name="potential_spend_decrease" type="boolean"/>
+        <element label="PO Cost (contract value)" max_length="20" name="po_cost" type="currency"/>
+        <element label="PO Number" max_length="79" name="po_number" type="string"/>
+        <element choice="1" label="Procurement Method" max_length="40" name="procurement_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Micro ($20K or under)" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="MWBE Noncompetitive" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Requirements Contract" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="OGS" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="PCC1 (small construction PO)" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Mod" sequence="6" value="6"/>
+            </choice>
+        </element>
+        <element label="Procurement Request" max_length="32" name="procurement_request" reference="x_dosny_bit_procur_bit_procurement_request" type="reference"/>
+        <element label="Recurring Expense" max_length="40" name="recurring_expense" type="boolean"/>
+        <element label="Requested for" max_length="32" name="requested_for" reference="sys_user" type="reference"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Sourcing EPIN" max_length="79" name="sourcing_epin" type="string"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+    </element>
+</database>

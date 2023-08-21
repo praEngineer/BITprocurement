@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="funding" table="x_dosny_bit_procur_bit_procurement_task" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>funding</element>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:43:48</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>funding</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_choice_x_dosny_bit_procur_bit_procurement_task_funding</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:43:48</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Capital</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:43:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:44:52</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expense</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:43:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:44:53</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Split (Capital &amp; Expense)</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:43:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:44:55</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>funding</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Snow Budget Expense</label>
+            <language>en</language>
+            <name>x_dosny_bit_procur_bit_procurement_task</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-14 18:44:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-14 18:44:57</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

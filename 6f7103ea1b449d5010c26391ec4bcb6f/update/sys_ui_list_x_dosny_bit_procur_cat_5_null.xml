@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_dosny_bit_procur_cat_5" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_row</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>c07cb034db09d150216fdc62ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_set</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>487cb034db09d150216fdc62ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_import_state</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>c87cb034db09d150216fdc62ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_table</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>4c7cb034db09d150216fdc62ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_target_sys_id</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>cc7cb034db09d150216fdc62ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_row_error</element>
+            <list_id display_value="x_dosny_bit_procur_cat_5" element="NULL" name="x_dosny_bit_procur_cat_5" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">c47cb034db09d150216fdc62ca961993</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_id>407cb034db09d150216fdc62ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_dosny_bit_procur_cat_5</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-29 21:16:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c47cb034db09d150216fdc62ca961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_cat_5</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_list_x_dosny_bit_procur_cat_5_null</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-29 21:16:31</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

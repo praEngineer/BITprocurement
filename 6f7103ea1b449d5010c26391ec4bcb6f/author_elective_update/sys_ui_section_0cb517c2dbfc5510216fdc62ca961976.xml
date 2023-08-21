@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Prior Year Details (for recurring exp)" section_id="0cb517c2dbfc5510216fdc62ca961976" sys_domain="global" table="x_dosny_bit_procur_bit_cc_procurement" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>799032eedbc91d50216fdc62ca961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.recurring_charge</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>f99032eedbc91d50216fdc62ca961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.expiration_date</element>
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7d9032eedbc91d50216fdc62ca961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.fiscal_year</element>
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>fd9032eedbc91d50216fdc62ca961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.month</element>
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7990faeedbc91d50216fdc62ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.bit_cc_tracking_no</element>
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>f990faeedbc91d50216fdc62ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.status</element>
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7d90faeedbc91d50216fdc62ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>7</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>fd90faeedbc91d50216fdc62ca9619de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.total_amount</element>
+            <position>8</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7190faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.annual_cost</element>
+            <position>9</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>f190faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.vendor</element>
+            <position>10</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7590faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.requested_by</element>
+            <position>11</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>f590faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.assigned_to</element>
+            <position>12</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>7990faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>last_po.description_notes</element>
+            <position>13</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+            <sys_id>f990faeedbc91d50216fdc62ca9619df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Prior Year Details (for recurring exp)</caption>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_cc_procurement</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-21 19:22:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0cb517c2dbfc5510216fdc62ca961976</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_cc_procurement</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_0cb517c2dbfc5510216fdc62ca961976</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-07-26 20:10:53</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_section_0cb517c2dbfc5510216fdc62ca961976</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Prior Year Details (for recurring exp)" section_id="0cb517c2dbfc5510216fdc62ca961976" sys_domain="global" table="x_dosny_bit_procur_bit_cc_procurement" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po</element><position>0</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>799032eedbc91d50216fdc62ca961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.recurring_charge</element><position>1</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>f99032eedbc91d50216fdc62ca961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.expiration_date</element><position>2</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7d9032eedbc91d50216fdc62ca961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.fiscal_year</element><position>3</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>fd9032eedbc91d50216fdc62ca961998</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.month</element><position>4</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7990faeedbc91d50216fdc62ca9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.bit_cc_tracking_no</element><position>5</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>f990faeedbc91d50216fdc62ca9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.status</element><position>6</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7d90faeedbc91d50216fdc62ca9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>7</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>fd90faeedbc91d50216fdc62ca9619de</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.total_amount</element><position>8</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7190faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.annual_cost</element><position>9</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>f190faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.vendor</element><position>10</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7590faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.requested_by</element><position>11</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>f590faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.assigned_to</element><position>12</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>7990faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>last_po.description_notes</element><position>13</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-04 16:13:22</sys_created_on><sys_id>f990faeedbc91d50216fdc62ca9619df</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_cc_procurement" sys_domain="global" view="Default view">0cb517c2dbfc5510216fdc62ca961976</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-04 16:13:22</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Prior Year Details (for recurring exp)</caption><header>false</header><name>x_dosny_bit_procur_bit_cc_procurement</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-07-21 19:22:47</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0cb517c2dbfc5510216fdc62ca961976</sys_id><sys_mod_count>3</sys_mod_count><sys_name>x_dosny_bit_procur_bit_cc_procurement</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_section_0cb517c2dbfc5510216fdc62ca961976</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-07-26 20:10:53</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-535072271</payload_hash>
+        <record_name>BIT Credit Card Procurement</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 16:13:22</sys_created_on>
+        <sys_id>f190faeedbc91d50216fdc62ca9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18269a207370000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:13:22</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b990faeeb7c91d50612e9bf56a0a5be1</update_guid>
+        <update_guid_history>b990faeeb7c91d50612e9bf56a0a5be1:-535072271,29a05177ab38115099e622af80b98779:-1083557109,fa605d378e3811502bcc2822143037c4:-1416287921,60e4006e6d70d510f0c501f0ade102f0:241858543,3baef7165a70d510ac67d2182a16c8c6:-593522185,608db3d26b70d510d278731529131265:-277667919,8b3d33d20370d51071e1310f7b48b979:-876915561,231cbf52e870d51088d34ccc01543bf4:2002331214,310c3f52ba70d5102fa8b73eef70bb81:1173127696,4aebbb520770d510d3f8591356c2e92c:1302420456,ffd83b9e0230d510a2af7b43f2d14d0c:1657144678,4332eb82fb309510f0542f49c00caaf5:-1032921648,ca226b828a309510bac0fd3f044bafe9:-2108837744,979ed74e59fc5510cf4903d87754e797:-1948394878,307ed34e63fc551099c8d2e738510d86:-2141601784,ef3e9f0eb5fc551059fb49f2d55449c4:-635709016,da7a5b0af9fc5510960a71e4522e80f0:-1391228244,256a970a26fc5510c6a715ee41cf42f4:-1477470576,3ee6134697fc5510299f16746ba7c0ca:-1858270306,7646570697fc55106b0d7cfc2efa8654:465284101,78c51bc241fc551039001a78b318fa4e:-1551496721,24c597c270fc551048536f98d86a17dd:1026248100,18b517c25efc5510472f32e990c915f6:1358528096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-10-11 16:22:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>151f45d425444710bfdb363ee2d46890</sys_id>
+        <sys_metadata>0cb517c2dbfc5510216fdc62ca961976</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prior Year Details (for recurring exp)</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="BIT Credit Card Procurement">e41088d31b84519010c26391ec4bcb16</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_0cb517c2dbfc5510216fdc62ca961976</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_0cb517c2dbfc5510216fdc62ca961976">f190faeedbc91d50216fdc62ca9619e2</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-10-11 16:22:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

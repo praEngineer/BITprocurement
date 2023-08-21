@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Related PO" section_id="b6831f01db909510d6ae1fba13961956" sys_domain="global" table="x_dosny_bit_procur_bit_procurement_invoice" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>48c3884c1b2ea550baac766e034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.name</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>c8c3884c1b2ea550baac766e034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.status</element>
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>4cc3884c1b2ea550baac766e034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.vendor</element>
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>ccc3884c1b2ea550baac766e034bcb4e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>40c3884c1b2ea550baac766e034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.fiscal_yr</element>
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>c0c3884c1b2ea550baac766e034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.po_number</element>
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>44c3884c1b2ea550baac766e034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.total_amount</element>
+            <position>7</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>c4c3884c1b2ea550baac766e034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nc_small_purchase_order.funding</element>
+            <position>8</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-04-26 18:58:43</sys_created_on>
+            <sys_id>48c3884c1b2ea550baac766e034bcb4f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-04-26 18:58:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Related PO</caption>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_procurement_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-23 20:08:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b6831f01db909510d6ae1fba13961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_procurement_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_b6831f01db909510d6ae1fba13961956</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-23 20:08:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_ui_section_b6831f01db909510d6ae1fba13961956</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Related PO" section_id="b6831f01db909510d6ae1fba13961956" sys_domain="global" table="x_dosny_bit_procur_bit_procurement_invoice" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order</element><position>0</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>48c3884c1b2ea550baac766e034bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.name</element><position>1</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>c8c3884c1b2ea550baac766e034bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.status</element><position>2</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>4cc3884c1b2ea550baac766e034bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.vendor</element><position>3</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>ccc3884c1b2ea550baac766e034bcb4e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>40c3884c1b2ea550baac766e034bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.fiscal_yr</element><position>5</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>c0c3884c1b2ea550baac766e034bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.po_number</element><position>6</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>44c3884c1b2ea550baac766e034bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.total_amount</element><position>7</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>c4c3884c1b2ea550baac766e034bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>nc_small_purchase_order.funding</element><position>8</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-04-26 18:58:43</sys_created_on><sys_id>48c3884c1b2ea550baac766e034bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Related PO" display_value="Related PO" name="x_dosny_bit_procur_bit_procurement_invoice" sys_domain="global" view="Default view">b6831f01db909510d6ae1fba13961956</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-04-26 18:58:43</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Related PO</caption><header>false</header><name>x_dosny_bit_procur_bit_procurement_invoice</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-23 20:08:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>b6831f01db909510d6ae1fba13961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_bit_procurement_invoice</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_section_b6831f01db909510d6ae1fba13961956</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-23 20:08:05</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1624839260</payload_hash>
+        <record_name>BIT Procurement invoice</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-26 18:58:44</sys_created_on>
+        <sys_id>0cc3884c1b2ea550baac766e034bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187beeea6990000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-26 18:58:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c0c3884c7b2ea55031eeb415aead4551</update_guid>
+        <update_guid_history>c0c3884c7b2ea55031eeb415aead4551:1624839260,e503804c982ea550b794532a4db3a5f6:563500053,71fce26a62415d501911c89a683e83c7:-816474146,5efb2256ff89d95006889a2a76a108aa:1399544423,255353d9fb14111088a78f3226d23644:1635719656,240213994c141110018be19d5a02e481:-58247438,0bc11f5919141110e4af05e2db9c2600:-1636353099,3c3f5b8dda9095106d0148ab096bbb37:1842244014,dae3d3411790951001d01906487009db:1680358988,fe831f01b79095102d63d2f842b64575:295830166</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 15:54:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>3991c6ce985b4172960db15208c69664</sys_id>
+        <sys_metadata>b6831f01db909510d6ae1fba13961956</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related PO</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="BIT Procurement invoice">0b7d949c1b54911010c26391ec4bcb14</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_b6831f01db909510d6ae1fba13961956</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_b6831f01db909510d6ae1fba13961956">0cc3884c1b2ea550baac766e034bcb51</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 15:54:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

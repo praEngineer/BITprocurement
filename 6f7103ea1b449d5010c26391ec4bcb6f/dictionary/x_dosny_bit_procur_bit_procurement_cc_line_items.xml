@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e27d02131bacfd10baac766e034bcb9a" extends="task" label="BIT Procurement CC Line Items" max_length="40" name="x_dosny_bit_procur_bit_procurement_cc_line_items" type="collection">
+        <element label="Approval Memo" max_length="32" name="approval_memo" reference="x_dosny_bit_procur_bit_procurement_approval_memo_task" type="reference"/>
+        <element label="Extended Price" max_length="20" name="extended_price" type="currency"/>
+        <element choice="1" label="Month" max_length="40" name="month" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="January" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="February" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="March" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="April" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="May" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="June" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="July" sequence="7" value="7"/>
+                <element inactive_on_update="false" label="August" sequence="8" value="8"/>
+                <element inactive_on_update="false" label="September" sequence="9" value="9"/>
+                <element inactive_on_update="false" label="October" sequence="10" value="10"/>
+                <element inactive_on_update="false" label="November" sequence="11" value="11"/>
+                <element inactive_on_update="false" label="December" sequence="12" value="12"/>
+            </choice>
+        </element>
+        <element label="Order Date" max_length="40" name="order_date" type="glide_date"/>
+        <element label="Procurement Request" max_length="32" name="procurement_request" reference="x_dosny_bit_procur_bit_procurement_request" type="reference"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Request" max_length="32" name="request" reference="sc_request" type="reference"/>
+        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <element label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Request Description" max_length="4000" name="request_description" read_only="true" type="string"/>
+        <element label="Request Estimated Cost" max_length="20" name="request_estimated_cost" read_only="true" type="currency"/>
+        <element label="Request Justification" max_length="4000" name="request_justification" read_only="true" type="string"/>
+        <element label="Request Name" max_length="79" name="request_name" read_only="true" type="string"/>
+        <element label="Request Recurring Expense" max_length="40" name="request_recurring_expense" read_only="true" type="boolean"/>
+        <element label="Request Requested by" max_length="32" name="request_requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Requested for" max_length="32" name="request_requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Vendor" max_length="32" name="request_vendor" read_only="true" reference="core_company" type="reference"/>
+        <element label="Unit Price" max_length="20" name="unit_price" type="currency"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <element choice="1" label="Year" max_length="40" name="year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2022" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2023" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="2024" sequence="3" value="3"/>
+            </choice>
+        </element>
+    </element>
+</database>

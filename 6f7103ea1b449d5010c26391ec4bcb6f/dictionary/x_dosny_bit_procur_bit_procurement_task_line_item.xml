@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="46598f271be47150baac766e034bcb5a" label="BIT Procurement Task Line Item" max_length="40" name="x_dosny_bit_procur_bit_procurement_task_line_item" type="collection">
+        <element label="Approval Memo" max_length="32" name="approval_memo" reference="x_dosny_bit_procur_bit_procurement_approval_memo_task" type="reference"/>
+        <element label="BIT Procurement" max_length="32" name="bit_procurement" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Procurement Task (Parent)" max_length="32" name="procurement_task" reference="x_dosny_bit_procur_bit_procurement_task" type="reference"/>
+        <element label="Request" max_length="32" name="request" reference="sc_request" type="reference"/>
+        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <index name="index">
+            <element name="approval_memo"/>
+        </index>
+        <index name="index2">
+            <element name="bit_procurement"/>
+        </index>
+        <index name="index3">
+            <element name="procurement_task"/>
+        </index>
+        <index name="index4">
+            <element name="request"/>
+        </index>
+        <index name="index5">
+            <element name="requested_item"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_dosny_bit_procur_bit_cc_procurement</basic_apply_to>
+        <basic_query_from>x_dosny_bit_procur_bit_procurement_cc_line_items</basic_query_from>
+        <insert_callback/>
+        <name>Credit Card Order Line Items</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+	// Add your code here, such as current.addQuery(field, value);
+	current.addQuery('current.sys_id', 'parent.credit_card_order')
+
+})(current, parent);]]></query_with>
+        <reference_field>credit_card_order</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 16:03:46</sys_created_on>
+        <sys_id>1b3e662edbc91d50216fdc62ca961931</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Credit Card Order Line Items</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_relationship_1b3e662edbc91d50216fdc62ca961931</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 16:07:08</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=1b3e662edbc91d50216fdc62ca961931"/>
+</record_update>

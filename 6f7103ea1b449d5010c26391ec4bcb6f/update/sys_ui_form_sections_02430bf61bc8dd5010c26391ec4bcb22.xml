@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="02430bf61bc8dd5010c26391ec4bcb22" sys_domain="global" table="x_dosny_bit_procur_bit_noncompetitive_small_purchase" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-16 19:10:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06430bf61bc8dd5010c26391ec4bcb25</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">02430bf61bc8dd5010c26391ec4bcb22</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">8e430bf61bc8dd5010c26391ec4bcb1f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-16 19:10:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-08-03 20:45:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0955e29edb49d950216fdc62ca9619fb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">02430bf61bc8dd5010c26391ec4bcb22</sys_ui_form>
+            <sys_ui_section caption="PassPort Specific" display_value="PassPort Specific" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">c955e29edb49d950216fdc62ca961962</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 20:45:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-18 21:12:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed02501ddbf09110216fdc62ca9619f7</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">02430bf61bc8dd5010c26391ec4bcb22</sys_ui_form>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">6d02501ddbf09110216fdc62ca9619f4</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 20:45:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-16 19:11:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29734ff61bc8dd5010c26391ec4bcbbf</sys_id>
+            <sys_mod_count>12</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">02430bf61bc8dd5010c26391ec4bcb22</sys_ui_form>
+            <sys_ui_section caption="Description &amp; Notes" display_value="Description &amp; Notes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">25734ff61bc8dd5010c26391ec4bcbbc</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 20:45:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-07-18 20:00:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>76818095dbb09110216fdc62ca961985</sys_id>
+            <sys_mod_count>9</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">02430bf61bc8dd5010c26391ec4bcb22</sys_ui_form>
+            <sys_ui_section caption="Prior Year Details (for recurring exp)" display_value="Prior Year Details (for recurring exp)" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="Default view">7a818095dbb09110216fdc62ca961981</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-08-03 20:45:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-16 19:10:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02430bf61bc8dd5010c26391ec4bcb22</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_02430bf61bc8dd5010c26391ec4bcb22</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-16 19:10:42</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

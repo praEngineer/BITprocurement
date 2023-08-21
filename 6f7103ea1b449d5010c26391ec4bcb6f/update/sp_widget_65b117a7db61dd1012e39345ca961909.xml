@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function ($scope, $rootScope, spUtil) {
+	var c = this;	
+	$rootScope.$on('selectApp', function(event,data) {		
+console.log("in Bit Procurment Esign Wrapper event sys id: " + $rootScope.appID);
+
+
+		spUtil.get("e-sign-task", {table:"x_dosny_bit_procur_bit_procurement_approval", sys_id: $rootScope.appID, sysID: $rootScope.appID}).then(function(response) {
+
+
+			c.processflow= response;
+
+
+			c.processflow.options = {"table": "x_dosny_bit_procur_bit_procurement_approval", "sys_id": $rootScope.appID, "sysID": $rootScope.appID}
+
+		});
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>bit_procurement_esign_wrapper</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) { 
+
+ }]]></link>
+        <name>BIT Procurement Esign Wrapper</name>
+        <option_schema>[{"name":"minimum","section":"other","label":"Minimum","type":"integer"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function () {
+	var options = {};
+})(); ]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-01 17:44:15</sys_created_on>
+        <sys_id>65b117a7db61dd1012e39345ca961909</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>BIT Procurement Esign Wrapper</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sp_widget_65b117a7db61dd1012e39345ca961909</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-01 19:12:50</sys_updated_on>
+        <template><![CDATA[<sp-widget widget="c.processflow"></sp-widget>
+]]></template>
+    </sp_widget>
+</record_update>

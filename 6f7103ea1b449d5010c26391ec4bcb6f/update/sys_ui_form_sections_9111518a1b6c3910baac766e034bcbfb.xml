@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="9111518a1b6c3910baac766e034bcbfb" sys_domain="global" table="x_dosny_bit_procur_bit_noncompetitive_small_purchase" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>dd11518a1b6c3910baac766e034bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5c822b6d1b6fa1506c1036ef034bcbbf</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 15:44:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c17cd2a41bbc3d106c1036ef034bcb42</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Email Attachments" display_value="Email Attachments" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">347cd2a41bbc3d106c1036ef034bcb3e</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 15:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d911518a1b6c3910baac766e034bcbff</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Funding Codes" display_value="Funding Codes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5d11518a1b6c3910baac766e034bcbf7</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 15:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1911918a1b6c3910baac766e034bcb03</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9d11518a1b6c3910baac766e034bcbf8</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 15:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9111918a1b6c3910baac766e034bcb07</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Description and Notes" display_value="Description and Notes" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">5911518a1b6c3910baac766e034bcbf9</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 15:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6511918a1b6c3910baac766e034bcb30</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Prior Year Details (for Renewals)" display_value="Prior Year Details (for Renewals)" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">1511518a1b6c3910baac766e034bcbfa</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 15:44:08</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-18 19:14:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dbc0b241bb07d106c1036ef034bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_dosny_bit_procur_bit_noncompetitive_small_purchase" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">9111518a1b6c3910baac766e034bcbfb</sys_ui_form>
+            <sys_ui_section caption="Requested Item" display_value="Requested Item" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" sys_domain="global" view="1882ef2d1b6fa1506c1036ef034bcbbc">4dbc0b241bb07d106c1036ef034bcb95</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-18 19:14:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-10 15:50:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9111518a1b6c3910baac766e034bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_noncompetitive_small_purchase</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_9111518a1b6c3910baac766e034bcbfb</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-10 15:50:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Procurement" name="procurement">1882ef2d1b6fa1506c1036ef034bcbbc</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

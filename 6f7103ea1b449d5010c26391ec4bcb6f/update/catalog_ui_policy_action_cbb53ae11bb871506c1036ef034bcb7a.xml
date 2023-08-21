@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="BIT Procurement Request">1f3d59ca1bac3910baac766e034bcb40</catalog_item>
+        <catalog_variable>IO:069c5e9c1bb8f9106c1036ef034bcb2b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 20:08:38</sys_created_on>
+        <sys_id>cbb53ae11bb871506c1036ef034bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_cbb53ae11bb871506c1036ef034bcb7a</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 20:08:38</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make Requested Item (Catalog Tasks) Variable Read Only">8b9576e11bb871506c1036ef034bcb8d</ui_policy>
+        <variable>name</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

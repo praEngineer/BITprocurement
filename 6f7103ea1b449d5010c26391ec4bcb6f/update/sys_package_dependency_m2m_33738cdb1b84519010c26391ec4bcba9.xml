@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="System (apps/system_user)" source="apps/system_user">a6e94b31db231300f93cdb85ca9619bd</dependency>
+        <min_version/>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-17 18:29:44</sys_created_on>
+        <sys_id>33738cdb1b84519010c26391ec4bcba9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-17 18:29:44</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

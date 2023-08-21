@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Document Management" source="com.snc.platform_document_management">fe33581edb049110d6ae1fba13961906</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-04-25 18:47:25</sys_created_on>
+        <sys_id>2097326b1b12e5506c1036ef034bcbad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-04-25 18:47:25</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="BIT Micro Purchases">aeb2021adbc5d950216fdc62ca961954</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_dosny_bit_procur_bit_micro_purchase">fiscal_yearSTARTSWITH2022^EQ<item endquery="false" field="fiscal_year" goto="false" newquery="false" operator="STARTSWITH" or="false" value="2022"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>FY 2023</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_dosny_bit_procur_bit_micro_purchase</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-03 18:16:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6f28ed6dbc5d950216fdc62ca961961</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>FY 2022</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_app_module_a6f28ed6dbc5d950216fdc62ca961961</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-03 18:18:44</sys_updated_on>
+        <timeline_page/>
+        <title>FY 2022</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_app_module_a6f28ed6dbc5d950216fdc62ca961961</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="BIT Micro Purchases">aeb2021adbc5d950216fdc62ca961954</application><assessment/><content_page/><device_type/><filter table="x_dosny_bit_procur_bit_micro_purchase">fiscal_yearSTARTSWITH2022^EQ<item endquery="false" field="fiscal_year" goto="false" newquery="false" operator="STARTSWITH" or="false" value="2022"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>FY 2023</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_dosny_bit_procur_bit_micro_purchase</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-08-03 18:16:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a6f28ed6dbc5d950216fdc62ca961961</sys_id><sys_mod_count>3</sys_mod_count><sys_name>FY 2022</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_app_module_a6f28ed6dbc5d950216fdc62ca961961</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-08-03 18:18:44</sys_updated_on><timeline_page/><title>FY 2022</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>641122404</payload_hash>
+        <record_name>FY 2022</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-03 18:18:44</sys_created_on>
+        <sys_id>6cb3c65adbc5d950216fdc62ca96194f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18264ee70df0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-03 18:18:44</sys_updated_on>
+        <type>Module</type>
+        <update_guid>24b3c65a50c5d95042f9f641d2f53b4f</update_guid>
+        <update_guid_history>24b3c65a50c5d95042f9f641d2f53b4f:641122404,f783c65a7dc5d950b5c4617a52f61595:1617878819,e863c25accc5d950a980b7e2fe85de41:-380442749,3013861a5cc5d95040b6665045b41a63:197801244</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c23ddb1edb4dd950216fdc62ca9619b5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-08-04 00:49:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>a394da27e2a54b1c8353ef6370e75284</sys_id>
+        <sys_metadata>a6f28ed6dbc5d950216fdc62ca961961</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FY 2022</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_a6f28ed6dbc5d950216fdc62ca961961</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a6f28ed6dbc5d950216fdc62ca961961">6cb3c65adbc5d950216fdc62ca96194f</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-08-04 00:49:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

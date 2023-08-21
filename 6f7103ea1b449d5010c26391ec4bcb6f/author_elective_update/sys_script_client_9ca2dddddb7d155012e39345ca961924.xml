@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>manually_approved</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>If Not Manually App, E-Sign Temp Mandate</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	if (newValue == 'false') {	
+		g_form.setMandatory('sn_esign_esignature_configuration', true);
+	}
+	if (newValue == 'true') {
+		g_form.setMandatory('sn_esign_esignature_configuration', false);
+	}
+
+
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-06 18:57:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9ca2dddddb7d155012e39345ca961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>If Not Manually App, E-Sign Temp Mandate</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_script_client_9ca2dddddb7d155012e39345ca961924</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-06 18:57:31</sys_updated_on>
+        <table>x_dosny_bit_procur_bit_procurement_approval_memo</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_script_client_9ca2dddddb7d155012e39345ca961924</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;manually_approved&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;If Not Manually App, E-Sign Temp Mandate&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	if (newValue == 'false') {	
+		g_form.setMandatory('sn_esign_esignature_configuration', true);
+	}
+	if (newValue == 'true') {
+		g_form.setMandatory('sn_esign_esignature_configuration', false);
+	}
+
+
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;clombardi&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-06 18:57:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;9ca2dddddb7d155012e39345ca961924&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;If Not Manually App, E-Sign Temp Mandate&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="BIT Procurement" source="x_dosny_bit_procur"&gt;6f7103ea1b449d5010c26391ec4bcb6f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="BIT Procurement"&gt;6f7103ea1b449d5010c26391ec4bcb6f&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_9ca2dddddb7d155012e39345ca961924&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;clombardi&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-06 18:57:31&lt;/sys_updated_on&gt;&lt;table&gt;x_dosny_bit_procur_bit_procurement_approval_memo&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1523912655</payload_hash>
+        <record_name>If Not Manually App, E-Sign Temp Mandate</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-06 18:57:31</sys_created_on>
+        <sys_id>14a29951dbbd155012e39345ca96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183142a29da0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-06 18:57:31</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>1ca299510abd1550f3beb574f498db2a</update_guid>
+        <update_guid_history>1ca299510abd1550f3beb574f498db2a:-1523912655</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-09-06 18:57:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>5ce1a56eb1804da6a980b78cc16d8d64</sys_id>
+        <sys_metadata>9ca2dddddb7d155012e39345ca961924</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>If Not Manually App, E-Sign Temp Mandate</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="BIT Procurement Approval Memo">d948c581dbfdd15012e39345ca961972</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_script_client_9ca2dddddb7d155012e39345ca961924</sys_update_name>
+        <sys_update_version display_value="sys_script_client_9ca2dddddb7d155012e39345ca961924">14a29951dbbd155012e39345ca96192b</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-09-06 18:57:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

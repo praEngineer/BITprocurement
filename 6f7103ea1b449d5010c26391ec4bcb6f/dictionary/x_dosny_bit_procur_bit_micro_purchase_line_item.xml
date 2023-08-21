@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="ef719f661bc49d5010c26391ec4bcbdd" label="BIT Micro Purchase Line Item" max_length="40" name="x_dosny_bit_procur_bit_micro_purchase_line_item" type="collection">
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="journal"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
+        <element label="Total Cost" max_length="20" name="total_cost" type="currency"/>
+        <element label="Unit Price" max_length="20" name="unit_price" type="currency"/>
+    </element>
+</database>

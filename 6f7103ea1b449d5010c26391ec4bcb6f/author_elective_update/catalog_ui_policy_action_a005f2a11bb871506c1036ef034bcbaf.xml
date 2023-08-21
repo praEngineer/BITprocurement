@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="BIT Procurement Request">1f3d59ca1bac3910baac766e034bcb40</catalog_item>
+        <catalog_variable>IO:069c5e9c1bb8f9106c1036ef034bcb2b</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 20:05:28</sys_created_on>
+        <sys_id>a005f2a11bb871506c1036ef034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a005f2a11bb871506c1036ef034bcbaf</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 20:05:28</sys_updated_on>
+        <table/>
+        <ui_policy display_value="BIT Procurment Make Catalog Item Variables Read Only">e304fe211bb871506c1036ef034bcb90</ui_policy>
+        <variable>name</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>catalog_ui_policy_action_a005f2a11bb871506c1036ef034bcbaf</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="BIT Procurement Request">1f3d59ca1bac3910baac766e034bcb40</catalog_item><catalog_variable>IO:069c5e9c1bb8f9106c1036ef034bcb2b</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-21 20:05:28</sys_created_on><sys_id>a005f2a11bb871506c1036ef034bcbaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>name</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>catalog_ui_policy_action_a005f2a11bb871506c1036ef034bcbaf</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-21 20:05:28</sys_updated_on><table/><ui_policy display_value="BIT Procurment Make Catalog Item Variables Read Only">e304fe211bb871506c1036ef034bcb90</ui_policy><variable>name</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1749317129</payload_hash>
+        <record_name>name</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 20:05:28</sys_created_on>
+        <sys_id>ea05fe611bb871506c1036ef034bcb91</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a19b3cd030000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 20:05:28</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>e205fe610db87150000bfdc9ffa58f91</update_guid>
+        <update_guid_history>e205fe610db87150000bfdc9ffa58f91:1749317129</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-08-21 16:06:33">96453aa11bb871506c1036ef034bcb1f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 20:06:33</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>7ee6ded47e5646408209ad3986e80400</sys_id>
+        <sys_metadata>a005f2a11bb871506c1036ef034bcbaf</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>name</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a005f2a11bb871506c1036ef034bcbaf</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a005f2a11bb871506c1036ef034bcbaf">ea05fe611bb871506c1036ef034bcb91</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 20:06:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -7,7 +7,7 @@
         <choice_direction>down</choice_direction>
         <choice_field/>
         <choice_table/>
-        <create_roles/>
+        <create_roles>public</create_roles>
         <default_html_value/>
         <default_value/>
         <delete_roles/>
@@ -40,14 +40,14 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>justification</name>
-        <order>700</order>
+        <order>500</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
         <question_text>Justification-will be used to obtain approval for expense</question_text>
         <read_only>false</read_only>
-        <read_roles/>
+        <read_roles>public</read_roles>
         <read_script/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -75,14 +75,14 @@
         <sys_created_by>clombardi</sys_created_by>
         <sys_created_on>2023-08-16 14:49:29</sys_created_on>
         <sys_id>da1c79861b607910baac766e034bcb95</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Justification-will be used to obtain approval for expense</sys_name>
         <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
         <sys_policy/>
         <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
         <sys_update_name>item_option_new_da1c79861b607910baac766e034bcb95</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-16 14:50:25</sys_updated_on>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:16:22</sys_updated_on>
         <table/>
         <tooltip/>
         <type>2</type>
@@ -99,7 +99,7 @@
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <visible_summary>true</visible_summary>
-        <write_roles/>
+        <write_roles>public</write_roles>
     </item_option_new>
     <sys_translated_text action="delete_multiple" query="documentkey=da1c79861b607910baac766e034bcb95"/>
     <fx_price action="delete_multiple" query="id=da1c79861b607910baac766e034bcb95"/>

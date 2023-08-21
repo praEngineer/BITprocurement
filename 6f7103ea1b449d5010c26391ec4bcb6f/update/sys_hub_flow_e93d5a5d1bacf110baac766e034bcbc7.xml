@@ -1,0 +1,1565 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>bit_procurement_2</internal_name>
+        <label_cache>[{"name":"adc237cd-99dd-4775-9026-a2b4790cd46f.Record","label":"7 - Create Task➛BIT Procurement Task Record","reference":"x_dosny_bit_procur_bit_procurement_task","reference_display":"BIT Procurement Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"adc237cd-99dd-4775-9026-a2b4790cd46f.Record.state","label":"7 - Create Task➛BIT Procurement Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_dosny_bit_procur_bit_procurement_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"40af3a0d-e344-4adf-a816-ac684be2b480.record","label":"8 - Create Record➛BIT Procurements Record","reference":"x_dosny_bit_procur_bit_noncompetitive_small_purchase","reference_display":"BIT Procurements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40af3a0d-e344-4adf-a816-ac684be2b480.record.status","label":"8 - Create Record➛BIT Procurements Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase","column_name":"status","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"On Hold","used":false,"reference":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"value":"6","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"In progress","used":false,"reference":false,"image":"","rawLabel":"In progress","selected":false,"missing":false,"value":"2","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Registered","used":false,"reference":false,"image":"","rawLabel":"Registered","selected":false,"missing":false,"value":"4","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Processed","used":false,"reference":false,"image":"","rawLabel":"Processed","selected":false,"missing":false,"value":"3","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Cancelled","used":false,"reference":false,"image":"","rawLabel":"Cancelled","selected":false,"missing":false,"value":"5","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}}]},{"name":"f015eed3-efc0-41ee-a8ee-6ccc8a3c37a2.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.b6390155dbb11190216fdc62ca961916}}","label":"Procurement Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"9e7356fb-9401-4968-904f-f429cc049b65.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1780a7f8-163f-440c-9cde-ece2634483b4.record","label":"1 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f015eed3-efc0-41ee-a8ee-6ccc8a3c37a2.Catalog Task.state","label":"4 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"{{static.7f5a5011db47a7005cbb9806b9961967}}","label":"Christine Lombardi","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.5d5a9cdddb07a7005cbb9806b99619dd}}","label":"Monika Macieszkiewicz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"8f4b29a7-06dc-43f5-9e6a-d1691c88a281.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>0c2e12111becf110baac766e034bcbb3</master_snapshot>
+        <name>BIT Procurement 2</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>502e52111becf110baac766e034bcb2c</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:27:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e93d5a5d1bacf110baac766e034bcbc7</sys_id>
+        <sys_mod_count>179</sys_mod_count>
+        <sys_name>BIT Procurement 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_hub_flow_e93d5a5d1bacf110baac766e034bcbc7</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:45:15</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_flow_catalog_trigger action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <catalog_item/>
+        <name/>
+        <run_flow_in>foreground</run_flow_in>
+        <sys_class_name>sys_flow_catalog_trigger</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>502e52111becf110baac766e034bcb2c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:45:17</sys_updated_on>
+    </sys_flow_catalog_trigger>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN910e1edd1bacf110baac766e034bcb80"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:30:44</sys_created_on>
+        <sys_id>910e1edd1bacf110baac766e034bcb80</sys_id>
+        <sys_mod_count>178</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=910e1edd1bacf110baac766e034bcb80"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>910e1edd1bacf110baac766e034bcb80</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 16:52:38</sys_created_on>
+        <sys_id>873c475d1be03510baac766e034bcbf5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 17:08:19</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="Run flow In">6090c72977203300f5bfcfcc78106159</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN9ff171de1b6cb910baac766e034bcbe8,ea4af33b1becb150baac766e034bcb56"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-04-21 00:00:00</duration>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <label>Validating request</label>
+        <order>0</order>
+        <stage_id>a533fec9-d9ea-47d0-8a3d-0b61ba21dd38</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 12:52:16</sys_created_on>
+        <sys_id>9ff171de1b6cb910baac766e034bcbe8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:38</sys_updated_on>
+        <type>standard</type>
+        <value>In progress</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>1</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <label>Awaiting Approval</label>
+        <order>1</order>
+        <stage_id>704d9f93-2971-4e4c-9c72-bbd222b98f87</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>ea4af33b1becb150baac766e034bcb56</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:42:58</sys_updated_on>
+        <type>standard</type>
+        <value>Awaiting Approval</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN693d5a5d1bacf110baac766e034bcbc8"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>e93d5a5d1bacf110baac766e034bcbc7</id>
+        <name>BIT Procurement 2</name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:27:12</sys_created_on>
+        <sys_id>693d5a5d1bacf110baac766e034bcbc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:27:12</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=693d5a5d1bacf110baac766e034bcbc8"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN590e1edd1bacf110baac766e034bcb74,9d0e1edd1bacf110baac766e034bcb78"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</model>
+        <model_id>e93d5a5d1bacf110baac766e034bcbc7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:30:44</sys_created_on>
+        <sys_id>590e1edd1bacf110baac766e034bcb74</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_borough/>
+        <u_dependent/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</model>
+        <model_id>e93d5a5d1bacf110baac766e034bcbc7</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:30:44</sys_created_on>
+        <sys_id>9d0e1edd1bacf110baac766e034bcb78</sys_id>
+        <sys_mod_count>102</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_borough/>
+        <u_dependent/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN1e4af33b1becb150baac766e034bcb41,624af33b1becb150baac766e034bcb4f,886286ce1b607910baac766e034bcb1e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>1e4af33b1becb150baac766e034bcb41</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:53</sys_updated_on>
+        <ui_id>8f4b29a7-06dc-43f5-9e6a-d1691c88a281</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e4af33b1becb150baac766e034bcb41"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e4af33b1becb150baac766e034bcb41</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>524af33b1becb150baac766e034bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e4af33b1becb150baac766e034bcb41</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>9e4af33b1becb150baac766e034bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e4af33b1becb150baac766e034bcb41</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>d24af33b1becb150baac766e034bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>1e4af33b1becb150baac766e034bcb41</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>da4af33b1becb150baac766e034bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1e4af33b1becb150baac766e034bcb41"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>9e4af33b1becb150baac766e034bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAllU[{{static.7f5a5011db47a7005cbb9806b9961967}},{{static.5d5a9cdddb07a7005cbb9806b99619dd}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>9e4af33b1becb150baac766e034bcb43</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>da4af33b1becb150baac766e034bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>564af33b1becb150baac766e034bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>1a4af33b1becb150baac766e034bcb44</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>1e4af33b1becb150baac766e034bcb41</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>524af33b1becb150baac766e034bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1e4af33b1becb150baac766e034bcb41"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1e4af33b1becb150baac766e034bcb41"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <order>4</order>
+        <parent_ui_id>dd5cfd49-9779-46bb-a02e-f4c8a2b3fe9d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>624af33b1becb150baac766e034bcb4f</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:53</sys_updated_on>
+        <ui_id>367a9042-e935-4309-8190-835bbd3de96b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=624af33b1becb150baac766e034bcb4f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>624af33b1becb150baac766e034bcb4f</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>224af33b1becb150baac766e034bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value>3d9af5061b607910baac766e034bcba2:item_option_new,bd4bf5461b607910baac766e034bcb3b:item_option_new,9ebbfd061b607910baac766e034bcbf8:item_option_new,da1c79861b607910baac766e034bcb95:item_option_new,33cc35c61b607910baac766e034bcbcc:item_option_new,f980c60e1b607910baac766e034bcb00:item_option_new,adb1868e1b607910baac766e034bcb15:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>624af33b1becb150baac766e034bcb4f</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>e24af33b1becb150baac766e034bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <value>1f3d59ca1bac3910baac766e034bcb40</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=624af33b1becb150baac766e034bcb4f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>624af33b1becb150baac766e034bcb4f</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>2a4af33b1becb150baac766e034bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>624af33b1becb150baac766e034bcb4f</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>ae4af33b1becb150baac766e034bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>624af33b1becb150baac766e034bcb4f</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>ea4af33b1becb150baac766e034bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=624af33b1becb150baac766e034bcb4f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=624af33b1becb150baac766e034bcb4f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>886286ce1b607910baac766e034bcb1e</sys_id>
+        <sys_mod_count>94</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:53</sys_updated_on>
+        <ui_id>548bf28f-6334-4897-a0b7-229004af7313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=886286ce1b607910baac766e034bcb1e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>886286ce1b607910baac766e034bcb1e</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>006286ce1b607910baac766e034bcb21</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:39</sys_updated_on>
+        <value>short_description=BIT Procurement Request^assignment_group={"display":"Procurement Clerks","value":"740801b7db21d410454c22e648961935","sys_id":"740801b7db21d410454c22e648961935"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>886286ce1b607910baac766e034bcb1e</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>486286ce1b607910baac766e034bcb21</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:25:23</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=886286ce1b607910baac766e034bcb1e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>886286ce1b607910baac766e034bcb1e</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>8c6286ce1b607910baac766e034bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:25:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>886286ce1b607910baac766e034bcb1e</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>046286ce1b607910baac766e034bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:25:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>886286ce1b607910baac766e034bcb1e</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:25:23</sys_created_on>
+        <sys_id>c86286ce1b607910baac766e034bcb20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:25:23</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=886286ce1b607910baac766e034bcb1e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=886286ce1b607910baac766e034bcb1e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN164af33b1becb150baac766e034bcb47"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d64af33b1becb150baac766e034bcb46</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>164af33b1becb150baac766e034bcb47</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <ui_id>dd5cfd49-9779-46bb-a02e-f4c8a2b3fe9d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=164af33b1becb150baac766e034bcb47"/>
+    <sys_element_mapping action="delete_multiple" query="id=164af33b1becb150baac766e034bcb47"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>164af33b1becb150baac766e034bcb47</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:38:40</sys_created_on>
+        <sys_id>124af33b1becb150baac766e034bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:38:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{8f4b29a7-06dc-43f5-9e6a-d1691c88a281.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=164af33b1becb150baac766e034bcb47"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=164af33b1becb150baac766e034bcb47"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN550e1edd1bacf110baac766e034bcb7d,dd0e1edd1bacf110baac766e034bcb77"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:30:44</sys_created_on>
+        <sys_id>550e1edd1bacf110baac766e034bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:30:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:30:44</sys_created_on>
+        <sys_id>dd0e1edd1bacf110baac766e034bcb77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:30:44</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=e93d5a5d1bacf110baac766e034bcbc7^sys_idNOT IN182e52111becf110baac766e034bcb2c"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"182e52111becf110baac766e034bcb2c","name":"plan","plan_signature":null}}</plan>
+        <plan_id>e93d5a5d1bacf110baac766e034bcbc7</plan_id>
+        <snapshot>b27bf7bb1becb150baac766e034bcb35</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>182e52111becf110baac766e034bcb2c</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <trigger display_value="">502e52111becf110baac766e034bcb2c</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=e93d5a5d1bacf110baac766e034bcbc7"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>bit_procurement_2</internal_name>
+        <label_cache>[{"name":"adc237cd-99dd-4775-9026-a2b4790cd46f.Record","label":"7 - Create Task➛BIT Procurement Task Record","reference":"x_dosny_bit_procur_bit_procurement_task","reference_display":"BIT Procurement Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"adc237cd-99dd-4775-9026-a2b4790cd46f.Record.state","label":"7 - Create Task➛BIT Procurement Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_dosny_bit_procur_bit_procurement_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"40af3a0d-e344-4adf-a816-ac684be2b480.record","label":"8 - Create Record➛BIT Procurements Record","reference":"x_dosny_bit_procur_bit_noncompetitive_small_purchase","reference_display":"BIT Procurements","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40af3a0d-e344-4adf-a816-ac684be2b480.record.status","label":"8 - Create Record➛BIT Procurements Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase","column_name":"status","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","rawLabel":"-- None --","selected":false,"missing":false,"value":""},{"label":"On Hold","used":false,"reference":false,"image":"","rawLabel":"On Hold","selected":false,"missing":false,"value":"6","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"In progress","used":false,"reference":false,"image":"","rawLabel":"In progress","selected":false,"missing":false,"value":"2","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Registered","used":false,"reference":false,"image":"","rawLabel":"Registered","selected":false,"missing":false,"value":"4","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Processed","used":false,"reference":false,"image":"","rawLabel":"Processed","selected":false,"missing":false,"value":"3","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}},{"label":"Cancelled","used":false,"reference":false,"image":"","rawLabel":"Cancelled","selected":false,"missing":false,"value":"5","parameters":{"name":"x_dosny_bit_procur_bit_noncompetitive_small_purchase"}}]},{"name":"f015eed3-efc0-41ee-a8ee-6ccc8a3c37a2.Catalog Task","label":"4 - Create Catalog Task➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.b6390155dbb11190216fdc62ca961916}}","label":"Procurement Approvers","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"Service Catalog_1.request_item","label":"Trigger - Service Catalog➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"Service Catalog_1.request_item.request","label":"Trigger - Service Catalog➛Requested Item Record➛Request","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"request"},{"name":"9e7356fb-9401-4968-904f-f429cc049b65.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1780a7f8-163f-440c-9cde-ece2634483b4.record","label":"1 - Update Record➛Request Record","reference":"sc_request","reference_display":"Request","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f015eed3-efc0-41ee-a8ee-6ccc8a3c37a2.Catalog Task.state","label":"4 - Create Catalog Task➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state","choices":[{"label":"Pending","used":false,"reference":false,"image":"","rawLabel":"Pending","selected":false,"missing":false,"value":"-5","parameters":{"name":"task"}},{"label":"Open","used":false,"reference":false,"image":"","rawLabel":"Open","selected":false,"missing":false,"value":"1","parameters":{"name":"task"}},{"label":"Work in Progress","used":false,"reference":false,"image":"","rawLabel":"Work in Progress","selected":false,"missing":false,"value":"2","parameters":{"name":"task"}},{"label":"Closed Complete","used":false,"reference":false,"image":"","rawLabel":"Closed Complete","selected":false,"missing":false,"value":"3","parameters":{"name":"task"}},{"label":"Closed Incomplete","used":false,"reference":false,"image":"","rawLabel":"Closed Incomplete","selected":false,"missing":false,"value":"4","parameters":{"name":"task"}},{"label":"Closed Skipped","used":false,"reference":false,"image":"","rawLabel":"Closed Skipped","selected":false,"missing":false,"value":"7","parameters":{"name":"task"}}]},{"name":"{{static.7f5a5011db47a7005cbb9806b9961967}}","label":"Christine Lombardi","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"{{static.5d5a9cdddb07a7005cbb9806b99619dd}}","label":"Monika Macieszkiewicz","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"8f4b29a7-06dc-43f5-9e6a-d1691c88a281.approval_state","label":"2 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>BIT Procurement 2</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="BIT Procurement 2">e93d5a5d1bacf110baac766e034bcbc7</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0c2e12111becf110baac766e034bcbb3</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:26</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_variable_value action="delete_multiple" query="document_key=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=0c2e12111becf110baac766e034bcbb3^sys_idNOT IN942e52111becf110baac766e034bcb14"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <name>Service Catalog</name>
+        <remote_sys_id/>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_id>942e52111becf110baac766e034bcb14</sys_id>
+        <sys_mod_count>152</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:27</sys_updated_on>
+        <trigger_definition display_value="Service Catalog">c43a1011c36813002841b63b12d3ae15</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>service_catalog</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=942e52111becf110baac766e034bcb14"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>942e52111becf110baac766e034bcb14</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 16:53:03</sys_created_on>
+        <sys_id>815c8b5d1be03510baac766e034bcb0d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 17:08:40</sys_updated_on>
+        <value>foreground</value>
+        <variable display_value="Run flow In">6090c72977203300f5bfcfcc78106159</variable>
+    </sys_variable_value>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=0c2e12111becf110baac766e034bcbb3^sys_idNOT INb0627dde1b6cb910baac766e034bcb9f,f68abb3b1becb150baac766e034bcbd6"/>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes/>
+        <duration>1970-04-21 00:00:00</duration>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <label>Validating request</label>
+        <order>0</order>
+        <stage_id>a533fec9-d9ea-47d0-8a3d-0b61ba21dd38</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 12:54:01</sys_created_on>
+        <sys_id>b0627dde1b6cb910baac766e034bcb9f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <type>standard</type>
+        <value>In progress</value>
+    </sys_hub_flow_stage>
+    <sys_hub_flow_stage action="INSERT_OR_UPDATE">
+        <always_show>true</always_show>
+        <ancestor_array_position>0</ancestor_array_position>
+        <ancestor_component_id/>
+        <ancestor_stage_id/>
+        <ancestral_if_else_logic/>
+        <component_indexes>1</component_indexes>
+        <duration>1970-01-01 00:00:00</duration>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <label>Awaiting Approval</label>
+        <order>1</order>
+        <stage_id>704d9f93-2971-4e4c-9c72-bbd222b98f87</stage_id>
+        <states>{"pending":"Pending - has not started","in_progress":"In progress","skipped":"Skipped","complete":"Completed","error":"Error"}</states>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>f68abb3b1becb150baac766e034bcbd6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:25</sys_updated_on>
+        <type>standard</type>
+        <value>Awaiting Approval</value>
+    </sys_hub_flow_stage>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=0c2e12111becf110baac766e034bcbb3^sys_idNOT IN0c2e12111becf110baac766e034bcbb4"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>0c2e12111becf110baac766e034bcbb3</id>
+        <name>BIT Procurement 2</name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:11</sys_created_on>
+        <sys_id>0c2e12111becf110baac766e034bcbb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:31:11</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=0c2e12111becf110baac766e034bcbb4"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=0c2e12111becf110baac766e034bcbb3^sys_idNOT IN802e12111becf110baac766e034bcbb6,cc2e12111becf110baac766e034bcbf4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>sc_req_item</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</model>
+        <model_id>0c2e12111becf110baac766e034bcbb3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:11</sys_created_on>
+        <sys_id>802e12111becf110baac766e034bcbb6</sys_id>
+        <sys_mod_count>100</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_borough/>
+        <u_dependent/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>default_search_field=number,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>request_item</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Request Item</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</model>
+        <model_id>0c2e12111becf110baac766e034bcbb3</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="sc_req_item">sc_req_item</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_id>cc2e12111becf110baac766e034bcbf4</sys_id>
+        <sys_mod_count>99</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <u_borough/>
+        <u_dependent/>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_output action="delete_multiple" query="model=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=0c2e12111becf110baac766e034bcbb3^sys_idNOT IN6b828ece1b607910baac766e034bcbf8,7a8abb3b1becb150baac766e034bcbb6,fa8abb3b1becb150baac766e034bcbac"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>6b828ece1b607910baac766e034bcbf8</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:26</sys_updated_on>
+        <ui_id>548bf28f-6334-4897-a0b7-229004af7313</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6b828ece1b607910baac766e034bcbf8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b828ece1b607910baac766e034bcbf8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>e7828ece1b607910baac766e034bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:26:11</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>6b828ece1b607910baac766e034bcbf8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>ef828ece1b607910baac766e034bcbfa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>short_description=BIT Procurement Request^assignment_group={"display":"Procurement Clerks","value":"740801b7db21d410454c22e648961935","sys_id":"740801b7db21d410454c22e648961935"}</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=6b828ece1b607910baac766e034bcbf8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>6b828ece1b607910baac766e034bcbf8</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>6f828ece1b607910baac766e034bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:26:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>6b828ece1b607910baac766e034bcbf8</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>e3828ece1b607910baac766e034bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:26:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>6b828ece1b607910baac766e034bcbf8</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-10 19:26:11</sys_created_on>
+        <sys_id>ab828ece1b607910baac766e034bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-10 19:26:11</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6b828ece1b607910baac766e034bcbf8"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6b828ece1b607910baac766e034bcbf8"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Get Catalog Variables">330ba3abc31013002841b63b12d3aee8</action_type>
+        <action_type_parent display_value="Get Catalog Variables">22f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <order>4</order>
+        <parent_ui_id>dd5cfd49-9779-46bb-a02e-f4c8a2b3fe9d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>7a8abb3b1becb150baac766e034bcbb6</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:26</sys_updated_on>
+        <ui_id>367a9042-e935-4309-8190-835bbd3de96b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7a8abb3b1becb150baac766e034bcbb6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a8abb3b1becb150baac766e034bcbb6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>7a8abb3b1becb150baac766e034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>1f3d59ca1bac3910baac766e034bcb40</value>
+        <variable display_value="Template Catalog Items and Variable Sets">bb0ba3abc31013002841b63b12d3aef1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>7a8abb3b1becb150baac766e034bcbb6</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>b68abb3b1becb150baac766e034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>3d9af5061b607910baac766e034bcba2:item_option_new,bd4bf5461b607910baac766e034bcb3b:item_option_new,9ebbfd061b607910baac766e034bcbf8:item_option_new,da1c79861b607910baac766e034bcb95:item_option_new,33cc35c61b607910baac766e034bcbcc:item_option_new,f980c60e1b607910baac766e034bcb00:item_option_new,adb1868e1b607910baac766e034bcb15:item_option_new</value>
+        <variable display_value="Catalog Variables">7b0ba3abc31013002841b63b12d3aef7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7a8abb3b1becb150baac766e034bcbb6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_variables</field>
+        <id>7a8abb3b1becb150baac766e034bcbb6</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>be8abb3b1becb150baac766e034bcbb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>requested_item</field>
+        <id>7a8abb3b1becb150baac766e034bcbb6</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>368abb3b1becb150baac766e034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>template_catalog_item</field>
+        <id>7a8abb3b1becb150baac766e034bcbb6</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>728abb3b1becb150baac766e034bcbb8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_330ba3abc31013002841b63b12d3aee8</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7a8abb3b1becb150baac766e034bcbb6"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7a8abb3b1becb150baac766e034bcbb6"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <comment/>
+        <display_text/>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>fa8abb3b1becb150baac766e034bcbac</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:26</sys_updated_on>
+        <ui_id>8f4b29a7-06dc-43f5-9e6a-d1691c88a281</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fa8abb3b1becb150baac766e034bcbac"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa8abb3b1becb150baac766e034bcbac</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>328abb3b1becb150baac766e034bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="Approval Field">01f2e9920b10030085c083eb37673ad8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa8abb3b1becb150baac766e034bcbac</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>3a8abb3b1becb150baac766e034bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="Journal Field">c1f2e9920b10030085c083eb37673ae3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa8abb3b1becb150baac766e034bcbac</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>be8abb3b1becb150baac766e034bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="Table">bcf2e9920b10030085c083eb37673acc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fa8abb3b1becb150baac766e034bcbac</document_key>
+        <order>5</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>fa8abb3b1becb150baac766e034bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <value/>
+        <variable display_value="Due Date">c5f2e9920b10030085c083eb37673af9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fa8abb3b1becb150baac766e034bcbac"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_conditions</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>fa8abb3b1becb150baac766e034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>ApprovesAllU[{{static.7f5a5011db47a7005cbb9806b9961967}},{{static.5d5a9cdddb07a7005cbb9806b99619dd}}]</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>approval_field</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>fa8abb3b1becb150baac766e034bcbae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>due_date</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>3a8abb3b1becb150baac766e034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{"action":"none","date_type":"actual","date":"{{}}","duration":1,"duration_type":"days","schedule":"","schedule_label":""}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>journal_field</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>b28abb3b1becb150baac766e034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>768abb3b1becb150baac766e034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value>{{Service Catalog_1.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>fa8abb3b1becb150baac766e034bcbac</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>be8abb3b1becb150baac766e034bcbaf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa8abb3b1becb150baac766e034bcbac"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fa8abb3b1becb150baac766e034bcbac"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=0c2e12111becf110baac766e034bcbb3^sys_idNOT INf68abb3b1becb150baac766e034bcbb9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">d64af33b1becb150baac766e034bcb46</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="BIT Procurement 2">0c2e12111becf110baac766e034bcbb3</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>f68abb3b1becb150baac766e034bcbb9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:43:26</sys_updated_on>
+        <ui_id>dd5cfd49-9779-46bb-a02e-f4c8a2b3fe9d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f68abb3b1becb150baac766e034bcbb9"/>
+    <sys_element_mapping action="delete_multiple" query="id=f68abb3b1becb150baac766e034bcbb9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>f68abb3b1becb150baac766e034bcbb9</id>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-16 14:39:47</sys_created_on>
+        <sys_id>328abb3b1becb150baac766e034bcbd6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-16 14:39:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{8f4b29a7-06dc-43f5-9e6a-d1691c88a281.approval_state}}=approved</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f68abb3b1becb150baac766e034bcbb9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f68abb3b1becb150baac766e034bcbb9"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=0c2e12111becf110baac766e034bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3^sys_idNOT IN0c2e52111becf110baac766e034bcb05,842e12111becf110baac766e034bcbf1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>request_item</element>
+        <help/>
+        <hint/>
+        <label>Request Item</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_id>0c2e52111becf110baac766e034bcb05</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:31:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-08 13:31:12</sys_created_on>
+        <sys_id>842e12111becf110baac766e034bcbf1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-08 13:31:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_0c2e12111becf110baac766e034bcbb3"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_0c2e12111becf110baac766e034bcbb3"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_0c2e12111becf110baac766e034bcbb3"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>e93d5a5d1bacf110baac766e034bcbc7</sys_id>
+        <latest_snapshot>0c2e12111becf110baac766e034bcbb3</latest_snapshot>
+        <compiler_build>glide-tokyo-07-08-2022__patch9-hotfix2a-06-26-2023_07-05-2023_1648.zip</compiler_build>
+    </sys_hub_flow>
+</record_update>

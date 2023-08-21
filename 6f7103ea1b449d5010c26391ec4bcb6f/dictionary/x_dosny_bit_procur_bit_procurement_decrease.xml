@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="704cfc27affd5110216fab42753b56d7" label="BIT Procurement Decrease" max_length="40" name="x_dosny_bit_procur_bit_procurement_decrease" type="collection">
+        <element label="BIT Procurement" max_length="32" name="bit_procurement" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element label="Contract ID (enter if no SN record for the procurement)" max_length="79" name="contract_number" type="string"/>
+        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Decrease Amount" max_length="20" name="decrease_amount" type="currency"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="bit_procurement"/>
+        </index>
+    </element>
+</database>

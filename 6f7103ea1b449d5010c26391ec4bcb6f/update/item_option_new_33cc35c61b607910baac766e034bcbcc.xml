@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item display_value="BIT Procurement Request">1f3d59ca1bac3910baac766e034bcb40</cat_item>
         <category/>
@@ -39,13 +39,13 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>select_vendor_if_known</name>
-        <order>900</order>
+        <name>vendor</name>
+        <order>100000</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Select vendor, if known</question_text>
+        <question_text>Vendor - select vendor, if known</question_text>
         <read_only>false</read_only>
         <read_roles>public</read_roles>
         <read_script/>
@@ -75,14 +75,14 @@
         <sys_created_by>clombardi</sys_created_by>
         <sys_created_on>2023-08-16 14:49:28</sys_created_on>
         <sys_id>33cc35c61b607910baac766e034bcbcc</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Select vendor, if known</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Vendor - select vendor, if known</sys_name>
         <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
         <sys_policy/>
         <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
         <sys_update_name>item_option_new_33cc35c61b607910baac766e034bcbcc</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2023-08-16 14:50:28</sys_updated_on>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 17:59:37</sys_updated_on>
         <table/>
         <tooltip/>
         <type>8</type>

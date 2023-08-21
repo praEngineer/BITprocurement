@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="sc_request" version="2" view="bit_procurement">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>3efcbe951ba03510baac766e034bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>requested_for</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>b2fcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>opened_by</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>36fcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>request_state</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>b6fcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>3afcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>bafcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>3efcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>due_date</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>befcbe951ba03510baac766e034bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sourced</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>32fcbe951ba03510baac766e034bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>b2fcbe951ba03510baac766e034bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>36fcbe951ba03510baac766e034bcbdf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>36fc32d51ba03510baac766e034bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="sc_request" element="NULL" name="sc_request" parent="NULL" relationship="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">fafcbe951ba03510baac766e034bcbdc</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_id>b6fc32d51ba03510baac766e034bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>sc_request</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-08 15:46:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fafcbe951ba03510baac766e034bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sc_request</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_list_sc_request_bit_procurement</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-08 15:46:00</sys_updated_on>
+            <sys_user/>
+            <view display_value="BIT Procurement" name="bit_procurement">e79ef83d1bd3e510baac766e034bcb6c</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

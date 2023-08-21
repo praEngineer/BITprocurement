@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dosny_bit_procur_bit_procurement_approval_memo_task" version="2" view="bit_procurement">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Approval Memo Task - BIT Procurement" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">1eb90fec1bf4b550baac766e034bcbb0</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:73212f561be4f910baac766e034bcbc2</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sfarkas</sys_created_by>
+            <sys_created_on>2023-08-18 19:01:56</sys_created_on>
+            <sys_id>5ab90fec1bf4b550baac766e034bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sfarkas</sys_updated_by>
+            <sys_updated_on>2023-08-18 19:01:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Approval Memo Task - BIT Procurement" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">1eb90fec1bf4b550baac766e034bcbb0</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:3070da5c1b78f9106c1036ef034bcb02</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sfarkas</sys_created_by>
+            <sys_created_on>2023-08-18 19:01:56</sys_created_on>
+            <sys_id>5eb90fec1bf4b550baac766e034bcbb1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sfarkas</sys_updated_by>
+            <sys_updated_on>2023-08-18 19:01:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Approval Memo Task - BIT Procurement" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" related_list="NULL" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">1eb90fec1bf4b550baac766e034bcbb0</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:c67939da1bacb910baac766e034bcbf6</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sfarkas</sys_created_by>
+            <sys_created_on>2023-08-18 19:01:56</sys_created_on>
+            <sys_id>52b90fec1bf4b550baac766e034bcbb2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sfarkas</sys_updated_by>
+            <sys_updated_on>2023-08-18 19:01:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>BIT Procurement Approval Memo Task - BIT Procurement</calculated_name>
+            <filter/>
+            <name>x_dosny_bit_procur_bit_procurement_approval_memo_task</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>sfarkas</sys_created_by>
+            <sys_created_on>2023-08-18 19:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1eb90fec1bf4b550baac766e034bcbb0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BIT Procurement Approval Memo Task - BIT Procurement</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_related_x_dosny_bit_procur_bit_procurement_approval_memo_task_bit_procurement</sys_update_name>
+            <sys_updated_by>sfarkas</sys_updated_by>
+            <sys_updated_on>2023-08-18 19:01:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="BIT Procurement" name="bit_procurement">e79ef83d1bd3e510baac766e034bcb6c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

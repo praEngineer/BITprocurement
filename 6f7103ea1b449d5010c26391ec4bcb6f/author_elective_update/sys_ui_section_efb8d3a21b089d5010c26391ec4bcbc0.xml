@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="efb8d3a21b089d5010c26391ec4bcbc0" sys_domain="global" table="x_dosny_bit_procur_bit_micro_purchase_invoice" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>aebcd458db9c5110d6ae1fba139619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>status</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>22bcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>a2bcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certification_of_receipt_requested_from</element>
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>26bcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_certification_of_receipt_requested</element>
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>a6bcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certification_of_receipt_provided_by</element>
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>2abcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_certification_of_receipt_received</element>
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>aabcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_submitted_to_fiscal</element>
+            <position>7</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>2ebcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pm_approval_requested_from</element>
+            <position>8</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>aebcd458db9c5110d6ae1fba139619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_pm_approval_requested</element>
+            <position>9</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>22bcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>pm_approval_provided_by</element>
+            <position>10</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>a2bcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_pm_approval_received</element>
+            <position>11</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>26bcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date_paid</element>
+            <position>12</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>a6bcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>check_no</element>
+            <position>13</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>2abcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>aabcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>purchase_order</element>
+            <position>15</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>2ebcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>16</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>aebcd458db9c5110d6ae1fba139619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fiscal_year</element>
+            <position>17</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+            <sys_id>22bcd458db9c5110d6ae1fba139619d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_micro_purchase_invoice</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2022-06-16 02:05:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>efb8d3a21b089d5010c26391ec4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_micro_purchase_invoice</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_efb8d3a21b089d5010c26391ec4bcbc0</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2022-06-16 02:05:59</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>5cf58331dba357400e785d00cf961976</instance_id>
+        <instance_name>nycdsprod</instance_name>
+        <name>sys_ui_section_efb8d3a21b089d5010c26391ec4bcbc0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="efb8d3a21b089d5010c26391ec4bcbc0" sys_domain="global" table="x_dosny_bit_procur_bit_micro_purchase_invoice" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>aebcd458db9c5110d6ae1fba139619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>1</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>22bcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>2</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>a2bcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>certification_of_receipt_requested_from</element><position>3</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>26bcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_certification_of_receipt_requested</element><position>4</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>a6bcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>certification_of_receipt_provided_by</element><position>5</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>2abcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_certification_of_receipt_received</element><position>6</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>aabcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_submitted_to_fiscal</element><position>7</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>2ebcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>pm_approval_requested_from</element><position>8</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>aebcd458db9c5110d6ae1fba139619ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_pm_approval_requested</element><position>9</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>22bcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>pm_approval_provided_by</element><position>10</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>a2bcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_pm_approval_received</element><position>11</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>26bcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>date_paid</element><position>12</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>a6bcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>check_no</element><position>13</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>2abcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>14</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>aabcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>purchase_order</element><position>15</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>2ebcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vendor</element><position>16</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>aebcd458db9c5110d6ae1fba139619cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>fiscal_year</element><position>17</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-20 22:53:54</sys_created_on><sys_id>22bcd458db9c5110d6ae1fba139619d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_micro_purchase_invoice" sys_domain="global" view="Default view">efb8d3a21b089d5010c26391ec4bcbc0</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-20 22:53:54</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_dosny_bit_procur_bit_micro_purchase_invoice</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2022-06-16 02:05:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>efb8d3a21b089d5010c26391ec4bcbc0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_bit_micro_purchase_invoice</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_section_efb8d3a21b089d5010c26391ec4bcbc0</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2022-06-16 02:05:59</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1585200522</payload_hash>
+        <record_name>BIT Micro Purchase Invoice</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-20 22:53:54</sys_created_on>
+        <sys_id>aebcd458db9c5110d6ae1fba139619d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18183528d8f0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-20 22:53:54</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>66bcd458119c51106e17297585a46cd2</update_guid>
+        <update_guid_history>66bcd458119c51106e17297585a46cd2:-1585200522,4dfabf400cd091103911fa27fe8ab6cf:-1882793354,0f3afb00aad091104557d435cf8d0bab:-1291010530,460ab7002ed091104b6eee6c80b6c581:-397459221,2bd5b748e99091102ee425cba33bb5a0:868323292,9dc5f3c07b1c51109f249ff698378627:54236514,ca95ff80f11c5110f01415906dac3c22:936555975,9665f780751c51101469be41aa25ad14:-1779417578,5f453b80b21c5110661010478b5807c6:-1589736261,daf4b3085e90911028bd8a579c9edef5:1779700273,b624f3c4ac909110891c09fb469dbd04:-251376359,f5b3b78441909110a950dafe4739ca97:-1345064401,2363bf44659091105894721d493ae0f7:1407438779,ca333b00fc1c5110bbe2e2cc002f5a79:769907294,de52f304b99091108bcadea650dbde5d:1120956281,4b22bfc09b9091104d39d1a2678387d3:2095959179,11f13bccbfd85110314b5cb36d420a05:-428537519,0ad137cc27d8511058e7d59c079bc77b:-274958994,17413f802c90911068bb629f5486f082:300732759,2fd03b8cf8d85110e9a83a4601b078d7:-1335492306,3cb0378c7ad8511034dc2f67feab07b8:-956207926,077faf0cf9d851108d40969cc5e84d4b:-425369633,876f2f0c0ed85110fecbed24ca62a210:-519621258,995eefc8c4d85110a4666fc55bcdc63d:881781908,844e2fc84dd85110f2dec25fa30f53f3:-976256098,e31eabc86ed851103af080a8acb6440f:-1359020510,605c6fc8e4509110c7c374d4713e2118:840295436,463ceb4843d851100d3ec73892848e80:1302564796,ddba2f084c5091102da5d43e0de4dbb4:840295436,ebd9e3c4465091103bd0efa3b115c2d7:1800013382,92d96fc47ad85110df8838a92b5af44a:1787090066,43792b84515091100cc0c348231f9f55:-1607368562,52c86bc47bd8511053149f9324412a81:2063454421,3eb8e7c4aad8511029831826b662b583:-922096596,7fa867c4ebd85110a206ff95ed8bbd36:1663344182,0698e3c4b0d851103a29e33c78b35739:-20240144,e58863c4fcd8511061e5af8e2a4b7d7d:-1905965901,9668ef84e8d851101bff7e5862702515:-385163910,20482f84c3d85110999d8be90963a26a:1138123282,31d7e384a3d8511088a8182e2f31b8a6:834000477,4f6dc8db6ec45190d8800b7a8bc3c175:-833252898,722c009bc6c4519097582aedf4c2c2ce:1938517742,973557432c80519067afb24915352241:1954108248,ab341fcf9d4051901ad473a27c9e4e53:-2142627064,5953578f3e405190d2d57af83dd6de06:-413930686,9843538ff640519015f455cff969e738:-1155435788,b3039b4fdf405190bce462a6db52f52c:-79247780,8803974f95405190cc64d5ae2cb7599c:145271863,ffb29b0f9f405190bc53bcc44dd87f76:-751858880,ba82db0f33405190a7e4d920bfa1af15:912027984,d5e11fcbf5405190ce08c7efc902d502:-123750919,58817f767dccdd50605fb9723975562c:-1410850136,fbb597f2e84cdd50371161de5a8346cd:-865584216,5e4993e20d089d508d726a14c794fca0:-367079859,b8f85ba207089d5032aff0f511931254:2112117577,2fb817a21e089d509424c88ce264fbc6:1873516582,ebb8d3a218089d507608415223e8c5c3:1629767842</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2022-06-23 19:25:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>6f1b06310bbd4398b4b8257a456dcc40</sys_id>
+        <sys_metadata>efb8d3a21b089d5010c26391ec4bcbc0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_bit_micro_purchase_invoice</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="">f1079bae1bc49d5010c26391ec4bcbc3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_efb8d3a21b089d5010c26391ec4bcbc0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_efb8d3a21b089d5010c26391ec4bcbc0">aebcd458db9c5110d6ae1fba139619d2</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2022-06-23 19:25:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

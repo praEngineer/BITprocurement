@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>BIT Procurement Approval Task</name>
+        <order/>
+        <roles>x_dosny_bit_procur.bit_procurement_approval_task_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 12:49:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6961fd5e1b6cb910baac766e034bcbd2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement Approval Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_ui_application_6961fd5e1b6cb910baac766e034bcbd2</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 12:49:42</sys_updated_on>
+    </sys_ui_application>
+</record_update>

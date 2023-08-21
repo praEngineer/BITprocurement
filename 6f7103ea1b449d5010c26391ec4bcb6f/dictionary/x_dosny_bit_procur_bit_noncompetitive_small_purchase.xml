@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b21f36be1b88dd5010c26391ec4bcbe3" label="BIT Procurements" max_length="40" name="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="collection">
+        <element label="Annual Cost (if different than PO Cost)" max_length="20" name="annual_cost" type="currency"/>
+        <element default="106" label="Appr. Unit" max_length="79" name="appr_unit" type="string"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <element default="1084" label="Budget Code" max_length="79" name="budget_code" type="string"/>
+        <element label="Bulk License Candidate" max_length="40" name="bulk_license_candidate" type="boolean"/>
+        <element label="Capital Amount" max_length="20" name="capital_amount" type="currency"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consultant" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Camera" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Enterprise Print" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="OPs Infrastructure" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Software/Licenses" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Commodity" max_length="79" name="commodity" type="string"/>
+        <element default="Dept. of Sanitation, 19th Floor&#13;&#10;375 Pearl Street&#13;&#10;New York, NY  10038&#13;&#10;Attn: Asset Management&#13;&#10;Tel: 212-291-1329" label="Deliver to" max_length="4000" name="deliver_to" type="string"/>
+        <element default="827" label="Dept." max_length="79" name="dept" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Email Attachment Recipients" max_length="4000" name="email_attachment_recipients" reference="sys_user" type="glide_list"/>
+        <element label="Estimated Cost" max_length="20" name="est_fy23_exp_cost" type="currency"/>
+        <element label="Expense Amount" max_length="20" name="expense_amount" type="currency"/>
+        <element label="License or Contract End" max_length="40" name="expiration_date" type="glide_date"/>
+        <element label="Fiscal Year Encumbrance  (if different than PO Cost)" max_length="20" name="fiscal_year_encumbrance" type="currency"/>
+        <element choice="1" label="Fiscal Yr" mandatory="true" max_length="40" name="fiscal_yr" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2021" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="2022" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="2023" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="2024" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element default="001" label="Fund" max_length="79" name="fund" type="string"/>
+        <element choice="1" label="Funding" max_length="40" name="funding" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Capital" value="1"/>
+                <element inactive_on_update="false" label="Expense" value="2"/>
+                <element inactive_on_update="false" label="Snow Budget Expense" value="4"/>
+                <element inactive_on_update="false" label="Split (Capital &amp; Expense)" value="3"/>
+            </choice>
+        </element>
+        <element default="Dept. of Sanitation, 5th Floor&#13;&#10;59 Maiden Lane&#13;&#10;New York, NY  10038&#13;&#10;Attn: Accounts Payable" label="Invoice To" max_length="4000" name="invoice_to" type="string"/>
+        <element label="LL63 Number (if applicable)" max_length="79" name="ll63_number" type="string"/>
+        <element label="Message" max_length="4000" name="message" type="string"/>
+        <element label="Name" max_length="79" name="name" type="string"/>
+        <element label="Notes" max_length="4000" name="notes" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element label="Object Code" max_length="79" name="object_code_detail" type="string"/>
+        <element label="Potential Spend Decrease" max_length="40" name="potential_spend_decrease" type="boolean"/>
+        <element label="PO Number" max_length="79" name="po_number" type="string"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Critical" sequence="4" value="4"/>
+            </choice>
+        </element>
+        <element label="Prior Year PO" max_length="32" name="prior_year_small_purchase" reference="x_dosny_bit_procur_bit_noncompetitive_small_purchase" type="reference"/>
+        <element choice="1" default="1" label="Procurement Method" max_length="40" name="procurement_method" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Micro ($20K or under)" value="3"/>
+                <element inactive_on_update="false" label="OGS" value="4"/>
+                <element inactive_on_update="false" label="Requirements Contract" value="2"/>
+                <element inactive_on_update="false" label="MWBE Noncompetitive" sequence="1" value="1"/>
+            </choice>
+        </element>
+        <element label="Recurring Expense" max_length="40" name="recurring_expense" type="boolean"/>
+        <element label="Request" max_length="32" name="request" reference="sc_request" type="reference"/>
+        <element label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="glide_list"/>
+        <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
+        <element label="Request Description" max_length="4000" name="request_description" read_only="true" type="string"/>
+        <element label="Request Estimated Cost" max_length="20" name="request_estimated_cost" read_only="true" type="currency"/>
+        <element label="Request Justification" max_length="4000" name="request_justification" read_only="true" type="string"/>
+        <element label="Request Name" max_length="79" name="request_name" read_only="true" type="string"/>
+        <element label="Request Recurring Expense" max_length="40" name="request_recurring_expense" read_only="true" type="boolean"/>
+        <element label="Request Requested by" max_length="32" name="request_requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Requested for" max_length="32" name="request_requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Vendor" max_length="32" name="request_vendor" read_only="true" reference="core_company" type="reference"/>
+        <element label="Short Description" max_length="79" name="short_description" type="string"/>
+        <element label="Sourcing EPIN" max_length="79" name="sourcing_epin" type="string"/>
+        <element label="License or Contract Start" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="On Hold" value="6"/>
+                <element inactive_on_update="false" label="In progress" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Registered" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Processed" sequence="4" value="3"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="5"/>
+            </choice>
+        </element>
+        <element label="Status Detail" max_length="4000" name="status_short_description" type="string"/>
+        <element label="PO Cost (Contract Value)" max_length="20" name="total_amount" type="currency"/>
+        <element label="Total Encumbrance (across years)" max_length="20" name="total_encumbrance_across_years" type="currency"/>
+        <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <element choice="1" label="Viewable" max_length="40" name="viewable" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Audit" sequence="1" value="audit"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="prior_year_small_purchase"/>
+        </index>
+        <index name="index3">
+            <element name="request"/>
+        </index>
+        <index name="index4">
+            <element name="request_requested_by"/>
+        </index>
+        <index name="index5">
+            <element name="request_requested_for"/>
+        </index>
+        <index name="index6">
+            <element name="request_vendor"/>
+        </index>
+        <index name="index7">
+            <element name="requested_by"/>
+        </index>
+        <index name="index8">
+            <element name="requested_item"/>
+        </index>
+        <index name="index9">
+            <element name="vendor"/>
+        </index>
+    </element>
+</database>

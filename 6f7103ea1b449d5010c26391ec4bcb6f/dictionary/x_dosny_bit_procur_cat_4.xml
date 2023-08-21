@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4aef24f0dbc1155012e39345ca9619e0" extends="sys_import_set_row" label="cat 4" max_length="40" name="x_dosny_bit_procur_cat_4" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Model Category 2" label="Model Category 2" max_length="40" name="u_model_category_2" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Sub 1" label="Sub 1" max_length="40" name="u_sub_1" type="string"/>
+    </element>
+</database>

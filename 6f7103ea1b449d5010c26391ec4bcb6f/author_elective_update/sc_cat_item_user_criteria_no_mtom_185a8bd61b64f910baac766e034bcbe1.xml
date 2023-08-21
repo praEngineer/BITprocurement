@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom">
+    <sc_cat_item_user_criteria_no_mtom action="DELETE">
+        <sc_cat_item display_value="cl rp 2">fe0a47d61b64f910baac766e034bcbb8</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 19:18:11</sys_created_on>
+        <sys_id>185a8bd61b64f910baac766e034bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cl rp 2.SNC External</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_185a8bd61b64f910baac766e034bcbe1</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 19:18:11</sys_updated_on>
+        <user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria>
+    </sc_cat_item_user_criteria_no_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sc_cat_item_user_criteria_no_mtom_185a8bd61b64f910baac766e034bcbe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_no_mtom"><sc_cat_item_user_criteria_no_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="cl rp 2">fe0a47d61b64f910baac766e034bcbb8</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_no_mtom</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-11 19:18:11</sys_created_on><sys_id>185a8bd61b64f910baac766e034bcbe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cl rp 2.SNC External</sys_name><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sc_cat_item_user_criteria_no_mtom_185a8bd61b64f910baac766e034bcbe1</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-11 19:18:11</sys_updated_on><user_criteria display_value="SNC External">66c1b50e730333009508738234f6a7c9</user_criteria></sc_cat_item_user_criteria_no_mtom></record_update>]]></payload>
+        <payload_hash>-1103382625</payload_hash>
+        <record_name>cl rp 2.SNC External</record_name>
+        <reverted_from/>
+        <source>11406e201b203110baac766e034bcbed</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2023-08-06 05:45:07</sys_created_on>
+        <sys_id>34c41b561ba4f910baac766e034bcbf4</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>189c960bab80000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Catalog Item Not Available for</type>
+        <update_guid>f0c41b5679a4f91093bd20d1735be0f4</update_guid>
+        <update_guid_history>f0c41b5679a4f91093bd20d1735be0f4:-1103382625</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Record deleted 2023-08-11 16:03:49">f4c41b561ba4f910baac766e034bcbf6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-11 20:03:49</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_no_mtom">sc_cat_item_user_criteria_no_mtom</sys_db_object>
+        <sys_id>1cc9709356924eb09dfe8ac138265464</sys_id>
+        <sys_metadata>185a8bd61b64f910baac766e034bcbe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cl rp 2.SNC External</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_no_mtom_185a8bd61b64f910baac766e034bcbe1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_no_mtom_185a8bd61b64f910baac766e034bcbe1">34c41b561ba4f910baac766e034bcbf4</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-11 20:03:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

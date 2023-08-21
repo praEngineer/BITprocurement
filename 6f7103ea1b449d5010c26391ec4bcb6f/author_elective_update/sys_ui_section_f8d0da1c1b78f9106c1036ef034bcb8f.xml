@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="f8d0da1c1b78f9106c1036ef034bcb8f" sys_domain="global" table="x_dosny_bit_procur_bit_procurement_approval_memo_task" version="3" view="bit_procurement">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>b0d0da1c1b78f9106c1036ef034bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>38d0da1c1b78f9106c1036ef034bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>b8d0da1c1b78f9106c1036ef034bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>3</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>3cd0da1c1b78f9106c1036ef034bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>4</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>bcd0da1c1b78f9106c1036ef034bcb91</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>30d0da1c1b78f9106c1036ef034bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>6</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>b0d0da1c1b78f9106c1036ef034bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>requested_item</element>
+            <position>7</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>34d0da1c1b78f9106c1036ef034bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request</element>
+            <position>8</position>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_id>b4d0da1c1b78f9106c1036ef034bcb92</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_dosny_bit_procur_bit_procurement_approval_memo_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f8d0da1c1b78f9106c1036ef034bcb8f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_dosny_bit_procur_bit_procurement_approval_memo_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_section_f8d0da1c1b78f9106c1036ef034bcb8f</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="BIT Procurement" name="bit_procurement">e79ef83d1bd3e510baac766e034bcb6c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_ui_section_f8d0da1c1b78f9106c1036ef034bcb8f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="f8d0da1c1b78f9106c1036ef034bcb8f" sys_domain="global" table="x_dosny_bit_procur_bit_procurement_approval_memo_task" version="3" view="bit_procurement"><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>b0d0da1c1b78f9106c1036ef034bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>1</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>38d0da1c1b78f9106c1036ef034bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>b8d0da1c1b78f9106c1036ef034bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>3</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>3cd0da1c1b78f9106c1036ef034bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>4</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>bcd0da1c1b78f9106c1036ef034bcb91</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>5</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>30d0da1c1b78f9106c1036ef034bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>6</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>b0d0da1c1b78f9106c1036ef034bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>requested_item</element><position>7</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>34d0da1c1b78f9106c1036ef034bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>request</element><position>8</position><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_id>b4d0da1c1b78f9106c1036ef034bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_dosny_bit_procur_bit_procurement_approval_memo_task" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">f8d0da1c1b78f9106c1036ef034bcb8f</sys_ui_section><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_dosny_bit_procur_bit_procurement_approval_memo_task</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-17 20:14:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f8d0da1c1b78f9106c1036ef034bcb8f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_dosny_bit_procur_bit_procurement_approval_memo_task</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_ui_section_f8d0da1c1b78f9106c1036ef034bcb8f</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-17 20:14:51</sys_updated_on><sys_user/><title>false</title><view display_value="BIT Procurement" name="bit_procurement">e79ef83d1bd3e510baac766e034bcb6c</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-1354446197</payload_hash>
+        <record_name>BIT Procurement Approval Memo Task</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-17 20:14:51</sys_created_on>
+        <sys_id>38d0d29c1b78f9106c1036ef034bcb6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a0522f45b0000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-17 20:14:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>b0d0d29cd778f9102d67b614e055326f</update_guid>
+        <update_guid_history>b0d0d29cd778f9102d67b614e055326f:-1354446197</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-17 21:58:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0e4ae8f7a2a54e6884215ede3ca65f19</sys_id>
+        <sys_metadata>f8d0da1c1b78f9106c1036ef034bcb8f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_dosny_bit_procur_bit_procurement_approval_memo_task</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="BIT Procurement Approval Memo Task">4eeaaf161b28f910baac766e034bcbc5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_f8d0da1c1b78f9106c1036ef034bcb8f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_f8d0da1c1b78f9106c1036ef034bcb8f">38d0d29c1b78f9106c1036ef034bcb6f</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-17 21:58:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

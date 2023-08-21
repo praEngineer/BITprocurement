@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_dosny_bit_procur_bit_procurement_request" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Request (Old) - Default view" name="x_dosny_bit_procur_bit_procurement_request" related_list="NULL" sys_domain="global" view="Default view">da23df671b287150baac766e034bcb9e</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>REL:59e123d61be4f910baac766e034bcbd0</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-15 17:09:14</sys_created_on>
+            <sys_id>1623df671b287150baac766e034bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-15 17:09:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Request (Old) - Default view" name="x_dosny_bit_procur_bit_procurement_request" related_list="NULL" sys_domain="global" view="Default view">da23df671b287150baac766e034bcb9e</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:c6b5d69f1bacfd10baac766e034bcbc1</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-15 17:09:14</sys_created_on>
+            <sys_id>5e23df671b287150baac766e034bcba0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-15 17:09:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Request (Old) - Default view" name="x_dosny_bit_procur_bit_procurement_request" related_list="NULL" sys_domain="global" view="Default view">da23df671b287150baac766e034bcb9e</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>REL:ced4aed71b203150baac766e034bcbd9</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-15 17:09:14</sys_created_on>
+            <sys_id>5223df671b287150baac766e034bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-15 17:09:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="BIT Procurement Request (Old) - Default view" name="x_dosny_bit_procur_bit_procurement_request" related_list="NULL" sys_domain="global" view="Default view">da23df671b287150baac766e034bcb9e</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>REL:d5a29f271b287150baac766e034bcbbe</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-15 17:09:14</sys_created_on>
+            <sys_id>5623df671b287150baac766e034bcba1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-15 17:09:14</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>BIT Procurement Request (Old) - Default view</calculated_name>
+            <filter/>
+            <name>x_dosny_bit_procur_bit_procurement_request</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>clombardi</sys_created_by>
+            <sys_created_on>2023-08-15 17:09:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da23df671b287150baac766e034bcb9e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>BIT Procurement Request - Default view</sys_name>
+            <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+            <sys_update_name>sys_ui_related_x_dosny_bit_procur_bit_procurement_request_null</sys_update_name>
+            <sys_updated_by>clombardi</sys_updated_by>
+            <sys_updated_on>2023-08-15 17:09:14</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

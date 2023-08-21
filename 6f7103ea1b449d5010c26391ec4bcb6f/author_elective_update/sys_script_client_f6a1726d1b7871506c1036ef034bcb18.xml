@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>BIT Procurement Make Req Vars Read-Only</name>
+        <order/>
+        <script/>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 19:51:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f6a1726d1b7871506c1036ef034bcb18</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement Make Req Vars Read-Only</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_script_client_f6a1726d1b7871506c1036ef034bcb18</sys_update_name>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:51:04</sys_updated_on>
+        <table>sc_req_item</table>
+        <type/>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</application>
+        <file_path/>
+        <instance_id>d1068f71dbe79b08439ef70fbf96194a</instance_id>
+        <instance_name>nycdsdev1</instance_name>
+        <name>sys_script_client_f6a1726d1b7871506c1036ef034bcb18</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client"><sys_script_client action="INSERT_OR_UPDATE"><active>true</active><applies_extended>false</applies_extended><condition/><description/><field/><global>true</global><isolate_script>true</isolate_script><messages/><name>BIT Procurement Make Req Vars Read-Only</name><order/><script/><sys_class_name>sys_script_client</sys_class_name><sys_created_by>clombardi</sys_created_by><sys_created_on>2023-08-21 19:51:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f6a1726d1b7871506c1036ef034bcb18</sys_id><sys_mod_count>0</sys_mod_count><sys_name>BIT Procurement Make Req Vars Read-Only</sys_name><sys_overrides/><sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package><sys_policy/><sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope><sys_update_name>sys_script_client_f6a1726d1b7871506c1036ef034bcb18</sys_update_name><sys_updated_by>clombardi</sys_updated_by><sys_updated_on>2023-08-21 19:51:04</sys_updated_on><table>sc_req_item</table><type/><ui_type>10</ui_type><view/></sys_script_client></record_update>]]></payload>
+        <payload_hash>322476603</payload_hash>
+        <record_name>BIT Procurement Make Req Vars Read-Only</record_name>
+        <reverted_from/>
+        <source>677103ea1b449d5010c26391ec4bcb72</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 19:51:04</sys_created_on>
+        <sys_id>6fb13e2d1b7871506c1036ef034bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a19a69c970000001</sys_recorded_at>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:51:04</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>57b13e2dc2787150efcbf88d58891d66</update_guid>
+        <update_guid_history>57b13e2dc2787150efcbf88d58891d66:322476603</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>clombardi</sys_created_by>
+        <sys_created_on>2023-08-21 19:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>22120abc7ab24660b1a145dd3d1ad640</sys_id>
+        <sys_metadata>f6a1726d1b7871506c1036ef034bcb18</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>BIT Procurement Make Req Vars Read-Only</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_parent display_value="Sc Req Item">393d0fb1dba31300f93cdb85ca9619fc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_scope_delete display_value="">5962f469bb5c4f6290ae4466e6bc5f84</sys_scope_delete>
+        <sys_update_name>sys_script_client_f6a1726d1b7871506c1036ef034bcb18</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f6a1726d1b7871506c1036ef034bcb18">6fb13e2d1b7871506c1036ef034bcb66</sys_update_version>
+        <sys_updated_by>clombardi</sys_updated_by>
+        <sys_updated_on>2023-08-21 19:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

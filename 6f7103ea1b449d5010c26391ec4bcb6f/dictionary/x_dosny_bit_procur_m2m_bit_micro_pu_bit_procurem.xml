@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a756643cdbd41510d6ae1fba13961991" label="Bit Procur M2m Bit Micro Pu Bit Procurem" max_length="40" name="x_dosny_bit_procur_m2m_bit_micro_pu_bit_procurem" type="collection">
+        <element attributes="encode_utf8=false" label="BIT Procurement invoice" max_length="32" name="bit_procurement_invoice" reference="x_dosny_bit_procur_bit_procurement_invoice" type="reference"/>
+        <index name="index">
+            <element name="bit_procurement_invoice"/>
+        </index>
+    </element>
+</database>
