@@ -30,6 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
     var documentGR = new GlideRecord('ds_document');
     if (documentGR.get(current.document)) {
+		// current is ds_document_version
         documentGR.u_document_link = current.u_link_to_document.toString();
         documentGR.update();
     }
@@ -46,7 +47,7 @@ Whenever a new version of a document is created or updated in the ds_document_ve
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>67cb0eae1bf4fd50baac766e034bcb6a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Populate Latest Document URL</sys_name>
         <sys_overrides/>
         <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
@@ -54,7 +55,7 @@ Whenever a new version of a document is created or updated in the ds_document_ve
         <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
         <sys_update_name>sys_script_67cb0eae1bf4fd50baac766e034bcb6a</sys_update_name>
         <sys_updated_by>sfarkas</sys_updated_by>
-        <sys_updated_on>2023-08-24 19:52:31</sys_updated_on>
+        <sys_updated_on>2023-08-24 23:35:39</sys_updated_on>
         <template/>
         <when>after</when>
     </sys_script>
