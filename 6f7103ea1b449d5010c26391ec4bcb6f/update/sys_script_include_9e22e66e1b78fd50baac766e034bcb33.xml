@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_dosny_bit_procur.DocumentQueryUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>the code uses a GlideQuery to retrieve information from the ds_document table and another GlideQuery to retrieve related records from the ds_document_version table. It joins the two tables based on the document reference field and selects the specified fields for each table.</description>
+        <name>DocumentQueryUtils</name>
+        <script><![CDATA[var DocumentQueryUtils = Class.create();
+DocumentQueryUtils.prototype = {
+    initialize: function() {
+		var result = [];
+		var documentGR = new GlideQuery('ds_document');
+		documentGR.select(['name', 'description', 'u_document_link']);
+		documentGR.query();
+
+		while (documentGR.next()) {
+			var documentName = documentGR.name.toString();
+			var documentDescription = documentGR.description.toString();
+			var documentLink = documentGR.u_document_link.toString();
+
+			var versionGR = new GlideQuery('ds_document_version');
+			versionGR.select(['name', 'document', 'u_link_to_document']);
+			versionGR.where('document', documentGR.getUniqueValue()); // Join based on the document reference
+			versionGR.query();
+
+			var versions = [];
+			while (versionGR.next()) {
+				var versionName = versionGR.name.toString();
+				var versionDocument = versionGR.document.toString();
+				var versionLink = versionGR.u_link_to_document.toString();
+				versions.push({ name: versionName, document: versionDocument, u_link_to_document: versionLink });
+			}
+
+			result.push({
+				document: {
+					name: documentName,
+					description: documentDescription,
+					u_document_link: documentLink
+				},
+				versions: versions
+			});
+		}
+
+		// Print or process the result array as needed
+		gs.info(result);
+
+    },
+
+    type: 'DocumentQueryUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sfarkas</sys_created_by>
+        <sys_created_on>2023-08-24 21:18:34</sys_created_on>
+        <sys_id>9e22e66e1b78fd50baac766e034bcb33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DocumentQueryUtils</sys_name>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_script_include_9e22e66e1b78fd50baac766e034bcb33</sys_update_name>
+        <sys_updated_by>sfarkas</sys_updated_by>
+        <sys_updated_on>2023-08-24 21:18:34</sys_updated_on>
+    </sys_script_include>
+</record_update>
