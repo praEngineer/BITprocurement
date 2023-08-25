@@ -11,17 +11,17 @@
         <element label="Request" max_length="32" name="request" reference="sc_request" type="reference"/>
         <element label="Requested Item" max_length="32" name="requested_item" reference="sc_req_item" type="reference"/>
         <element default="BIT" label="Requesting Group" max_length="79" name="requesting_group" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;try {&#13;&#10;&#9;&#9;if(!current.requestor.getName().toString().length === 0){&#13;&#10;&#9;&#9;&#9;var userID = gs.getUserID();&#13;&#10;&#9;&#9;&#9;return userID;  // return the calculated value&#9;&#9;&#9;&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;return current;&#13;&#10;}&#13;&#10;catch(error){&#13;&#10;&#9;alert(error.message);&#13;&#10;&#9;return;&#13;&#10;}&#9;&#13;&#10;&#13;&#10;})(current);" default="1a1a1c5ddb07a7005cbb9806b9961909" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
         <element label="Request Description" max_length="4000" name="request_description" read_only="true" type="string"/>
         <element label="Request Estimated Cost" max_length="20" name="request_estimated_cost" read_only="true" type="currency"/>
         <element label="Request Justification" max_length="4000" name="request_justification" read_only="true" type="string"/>
         <element label="Request Name" max_length="79" name="request_name" read_only="true" type="string"/>
         <element label="Request Recurring Expense" max_length="40" name="request_recurring_expense" read_only="true" type="boolean"/>
-        <element label="Request Requested by" max_length="32" name="request_requested_by" read_only="true" reference="sys_user" type="reference"/>
-        <element label="Request Requested for" max_length="32" name="request_requested_for" read_only="true" reference="sys_user" type="reference"/>
         <element label="Request Vendor" max_length="32" name="request_vendor" read_only="true" reference="core_company" type="reference"/>
         <element label="Service Now Request Number" max_length="79" name="service_now_request_number" type="string"/>
-        <element label="Request Justification" max_length="4000" name="summary" type="string"/>
         <element label="Vendor" max_length="32" name="vendor" reference="core_company" type="reference"/>
+        <element label="Request Requested by" max_length="32" name="request_requested_by" read_only="true" reference="sys_user" type="reference"/>
+        <element label="Request Justification" max_length="4000" name="summary" type="string"/>
+        <element label="Request Requested for" max_length="32" name="request_requested_for" read_only="true" reference="sys_user" type="reference"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;try {&#13;&#10;&#9;&#9;if(!current.requestor.getName().toString().length === 0){&#13;&#10;&#9;&#9;&#9;var userID = gs.getUserID();&#13;&#10;&#9;&#9;&#9;return userID;  // return the calculated value&#9;&#9;&#9;&#13;&#10;&#9;&#9;}&#13;&#10;&#9;&#9;return current;&#13;&#10;}&#13;&#10;catch(error){&#13;&#10;&#9;alert(error.message);&#13;&#10;&#9;return;&#13;&#10;}&#9;&#13;&#10;&#13;&#10;})(current);" default="1a1a1c5ddb07a7005cbb9806b9961909" label="Requestor" max_length="32" name="requestor" reference="sys_user" type="reference"/>
     </element>
 </database>

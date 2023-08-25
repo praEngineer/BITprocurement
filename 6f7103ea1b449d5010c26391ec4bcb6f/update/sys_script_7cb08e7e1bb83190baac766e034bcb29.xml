@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_adosy_as_agreement</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>AssignRolesForPurchaseAgreements</name>
+        <order>200</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function updateParticipantRoles(current, previous /*null when async*/) {
+try {
+	var agreementSysId = current.sys_id.toString();
+
+    var participantGR = new GlideRecord('x_adosy_as_participant');
+    participantGR.addQuery('agreement', agreementSysId);
+    participantGR.query();
+
+    if (participantGR.getRowCount() === 1) {
+        participantGR.next();
+        participantGR.role = 'FORM_FILLER';
+        participantGR.update();
+        return;
+    }
+
+    var maxOrder = -Infinity;
+    var minOrder = 1;
+    var signerOrders = [];
+
+    while (participantGR.next()) {
+        var lclorder = parseInt(participantGR.order.toString());
+
+        if (lclorder > maxOrder) {
+            maxOrder = lclorder;
+        }
+        if (lclorder < minOrder) {
+            minOrder = lclorder;
+        }
+        if (lclorder !== maxOrder && lclorder !== minOrder) {
+            signerOrders.push(lclorder);
+        }
+    }
+
+    var participantToUpdate = new GlideRecord('x_adosy_as_participant');
+    participantToUpdate.addQuery('agreement', agreementSysId);
+    participantToUpdate.query();
+
+    while (participantToUpdate.next()) {
+        var orderToUpdate = parseInt(participantToUpdate.order.toString());
+        
+        if (orderToUpdate === maxOrder) {
+            participantToUpdate.role = 'APPROVER';
+        } else if (orderToUpdate === minOrder) {
+            participantToUpdate.role = 'FORM_FILLER';
+        } else if (signerOrders.includes(orderToUpdate)) {
+            participantToUpdate.role = 'SIGNER';
+        }
+
+        participantToUpdate.update();
+    }
+} catch (exception) {
+	gs.error("(BIT Procurement) Problem in updateParticipantRoles: " + exception.message);
+}	
+})(current, previous);
+
+
+
+/*
+after each "insert" or "update" of a row in the "x_adosy_as_agreement" table, the script will run and update the "fldRole" value in the "x_adosy_as_participant" table based on the conditions you've specified. The roles "APPROVER," "FORM_FILLER," and "SIGNER" will be assigned to the corresponding rows with the largest, smallest, and intermediary "fldOrder" values within each set of rows sharing the same "fldAgreement."
+
+If there's only one row in the "x_adosy_as_participant" table for a given "fldAgreement," the role will be set to "FORM_FILLER."
+*/]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sfarkas</sys_created_by>
+        <sys_created_on>2023-08-25 13:40:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7cb08e7e1bb83190baac766e034bcb29</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>AssignRolesForPurchaseAgreements</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="BIT Procurement" source="x_dosny_bit_procur">6f7103ea1b449d5010c26391ec4bcb6f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="BIT Procurement">6f7103ea1b449d5010c26391ec4bcb6f</sys_scope>
+        <sys_update_name>sys_script_7cb08e7e1bb83190baac766e034bcb29</sys_update_name>
+        <sys_updated_by>sfarkas</sys_updated_by>
+        <sys_updated_on>2023-08-25 16:55:03</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=7cb08e7e1bb83190baac766e034bcb29"/>
+</record_update>

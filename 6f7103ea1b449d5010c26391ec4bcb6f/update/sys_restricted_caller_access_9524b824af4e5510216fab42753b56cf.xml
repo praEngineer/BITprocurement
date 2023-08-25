@@ -7,7 +7,7 @@
         <source_scope display_value="Global">global</source_scope>
         <source_table>sys_ui_action</source_table>
         <source_type>1</source_type>
-        <status>2</status>
+        <status>3</status>
         <sys_class_name>sys_restricted_caller_access</sys_class_name>
         <sys_created_by>clombardi</sys_created_by>
         <sys_created_on>2022-09-16 19:04:35</sys_created_on>

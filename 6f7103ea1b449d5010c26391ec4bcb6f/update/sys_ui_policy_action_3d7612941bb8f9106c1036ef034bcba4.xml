@@ -17,7 +17,7 @@
         <sys_updated_by>clombardi</sys_updated_by>
         <sys_updated_on>2023-08-17 20:39:41</sys_updated_on>
         <table>x_dosny_bit_procur_bit_procurement_approval_memo_task</table>
-        <ui_policy display_value="Make related procurement fields read only">f685da141bb8f9106c1036ef034bcb18</ui_policy>
+        <ui_policy display_value="BIT Procurement-Make Related Procurement fields read-only">f685da141bb8f9106c1036ef034bcb18</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

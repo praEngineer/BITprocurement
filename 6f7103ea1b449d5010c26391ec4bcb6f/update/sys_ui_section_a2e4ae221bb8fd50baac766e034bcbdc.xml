@@ -1,58 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="CompareDocumentVersion" section_id="a2e4ae221bb8fd50baac766e034bcbdc" sys_domain="global" table="ds_document" version="3" view="bit_procurement">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>12M.ds_document.ds_document_version.document</element>
             <position>0</position>
             <sys_created_by>sfarkas</sys_created_by>
-            <sys_created_on>2023-08-24 21:30:44</sys_created_on>
-            <sys_id>6055e6221bb8fd50baac766e034bcbec</sys_id>
+            <sys_created_on>2023-08-25 16:43:54</sys_created_on>
+            <sys_id>7c4dea3a1bbc3190baac766e034bcbd4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="CompareDocumentVersion" display_value="CompareDocumentVersion" name="ds_document" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">a2e4ae221bb8fd50baac766e034bcbdc</sys_ui_section>
             <sys_updated_by>sfarkas</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:30:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>1</position>
-            <sys_created_by>sfarkas</sys_created_by>
-            <sys_created_on>2023-08-24 21:30:44</sys_created_on>
-            <sys_id>6455e6221bb8fd50baac766e034bcbec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CompareDocumentVersion" display_value="CompareDocumentVersion" name="ds_document" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">a2e4ae221bb8fd50baac766e034bcbdc</sys_ui_section>
-            <sys_updated_by>sfarkas</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:30:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_document_link</element>
-            <position>2</position>
-            <sys_created_by>sfarkas</sys_created_by>
-            <sys_created_on>2023-08-24 21:30:44</sys_created_on>
-            <sys_id>6855e6221bb8fd50baac766e034bcbec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CompareDocumentVersion" display_value="CompareDocumentVersion" name="ds_document" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">a2e4ae221bb8fd50baac766e034bcbdc</sys_ui_section>
-            <sys_updated_by>sfarkas</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:30:44</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.ds_document.ds_document_version.document</element>
-            <position>3</position>
-            <sys_created_by>sfarkas</sys_created_by>
-            <sys_created_on>2023-08-24 21:30:44</sys_created_on>
-            <sys_id>6c55e6221bb8fd50baac766e034bcbec</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="CompareDocumentVersion" display_value="CompareDocumentVersion" name="ds_document" sys_domain="global" view="e79ef83d1bd3e510baac766e034bcb6c">a2e4ae221bb8fd50baac766e034bcbdc</sys_ui_section>
-            <sys_updated_by>sfarkas</sys_updated_by>
-            <sys_updated_on>2023-08-24 21:30:44</sys_updated_on>
+            <sys_updated_on>2023-08-25 16:43:54</sys_updated_on>
             <sys_user/>
             <type>list</type>
         </sys_ui_element>
