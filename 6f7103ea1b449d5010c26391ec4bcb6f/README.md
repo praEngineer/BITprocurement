@@ -29,3 +29,4 @@ If you find yourself unable to import your repository due to the presence of fil
    * System (apps/system_user)
    * Task table schema
    * System Import Sets
+   * Customer Service
